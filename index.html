@@ -62,7 +62,7 @@
         async function fetchNotes() {
             const password = patInput.value;
 
-            statusMessage.textContent = '✅ [Fetch] In progress...';
+            statusMessage.textContent = '⏳ [Fetch] In progress...';
 
             try {
                 let headers = {};
@@ -97,11 +97,13 @@
 
             if (!password) {
                 alert('Password wen?');
+                statusMessage.textContent = '❎ [Commit] No password';
                 return;
             }
 
             if (!fileSha) {
                 alert('Notes wher?');
+                statusMessage.textContent = '❎ [Commit] Idk what this error is :/';
                 return;
             }
 
@@ -124,7 +126,7 @@
                     fileSha = data.content.sha; // Update the SHA after the commit
                     statusMessage.textContent = '✅ [Commit] OK!';
                 } else {
-                    statusMessage.textContent = '❎ [Commit] Error: ' + response.statusText;
+                    statusMessage.textContent = '❎ [Commit] Error: Maybe wrong password?';
                 }
             } catch (error) {
                 console.error(error);
