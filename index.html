@@ -2,144 +2,145 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murgi's Notes 🌚</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murgi's Notes 🌚</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
 
-        textarea {
-            width: 100%;
-            height: 300px;
-            margin-bottom: 10px;
-        }
+    textarea {
+      font-family: sans-serif;
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+    }
 
-        input,
-        button {
-            margin-bottom: 10px;
-            padding: 10px;
-        }
+    input,
+    button {
+      margin-bottom: 10px;
+      padding: 10px;
+    }
 
-        #password::placeholder {
-            font-family: "Courier New", monospace;
-        }
-    </style>
+    #password::placeholder {
+      font-family: "Courier New", monospace;
+    }
+  </style>
 </head>
 
 <body>
-    <h1>Murgi's Notes 🌚</h1>
+  <p><b style="font-size: larger;">Murgi's Notes 🌚</b><br>
     <code>Born on 20241228_1620</code>
-    <input type="password" placeholder="password" id="password" />
-    <button style="margin-left: 8px;" id="commitNotes">Commit</button>
-    <br>
-    <textarea id="notes"></textarea>
-    <br>
+  </p>
+  <input type="password" placeholder="password" id="password" />
+  <button style="margin-left: 8px;" id="commitNotes">Commit</button>
+  <br>
+  <textarea spellcheck="false" id="notes"></textarea>
+  <br>
+  <p id="status" style="font-weight: bold;"></p>
 
-    <p id="status" style="font-weight: bold;"></p>
+  <script>
+    const commitNotesButton = document.getElementById('commitNotes');
+    const notesTextarea = document.getElementById('notes');
+    const patInput = document.getElementById('password');
+    const statusMessage = document.getElementById('status');
 
-    <script>
-        const commitNotesButton = document.getElementById('commitNotes');
-        const notesTextarea = document.getElementById('notes');
-        const patInput = document.getElementById('password');
-        const statusMessage = document.getElementById('status');
+    let fileSha = ''; // To store the file's SHA for commits
 
-        let fileSha = ''; // To store the file's SHA for commits
+    // Function to extract the password from the URL
+    function getPasswordFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('password');
+    }
 
-        // Function to extract the password from the URL
-        function getPasswordFromUrl() {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get('password');
+    // Set the password input automatically if it's present in the URL
+    const passwordFromUrl = getPasswordFromUrl();
+    if (passwordFromUrl) {
+      patInput.value = passwordFromUrl;
+    }
+
+    async function fetchNotes() {
+      const password = patInput.value;
+
+      statusMessage.textContent = '⏳ [Fetch] In progress...';
+
+      try {
+        let headers = {};
+        // If password is provided, use it as the Authorization header
+        if (password) {
+          headers['Authorization'] = `Bearer ${password}`;
         }
 
-        // Set the password input automatically if it's present in the URL
-        const passwordFromUrl = getPasswordFromUrl();
-        if (passwordFromUrl) {
-            patInput.value = passwordFromUrl;
+        const response = await fetch(`https://api.github.com/repos/faizul726/notes/contents/notes.txt`, {
+          headers: headers
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          const content = atob(data.content); // Decode the base64 content
+          notesTextarea.value = content;
+          fileSha = data.sha; // Store the file's SHA for later commits
+          statusMessage.textContent = '✅ [Fetch] OK';
+        } else {
+          statusMessage.textContent = '❎ [Fetch] Error: ' + response.statusText;
         }
+      } catch (error) {
+        console.error(error);
+        statusMessage.textContent = '❎ [Fetch] Unknown error';
+      }
+    }
 
-        async function fetchNotes() {
-            const password = patInput.value;
+    async function commitNotes() {
+      statusMessage.textContent = '⏳ [Commit] In progress...';
+      const password = patInput.value;
+      const notes = notesTextarea.value;
 
-            statusMessage.textContent = '⏳ [Fetch] In progress...';
+      if (!password) {
+        alert('Password wen?');
+        statusMessage.textContent = '❎ [Commit] No password';
+        return;
+      }
 
-            try {
-                let headers = {};
-                // If password is provided, use it as the Authorization header
-                if (password) {
-                    headers['Authorization'] = `Bearer ${password}`;
-                }
+      if (!fileSha) {
+        alert('Notes wher?');
+        statusMessage.textContent = '❎ [Commit] Idk what this error is :/';
+        return;
+      }
 
-                const response = await fetch(`https://api.github.com/repos/faizul726/notes/contents/notes.txt`, {
-                    headers: headers
-                });
+      try {
+        const response = await fetch(`https://api.github.com/repos/faizul726/notes/contents/notes.txt`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${password}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            message: 'Updated notes.txt',
+            content: btoa(notes), // Encode the notes to base64
+            sha: fileSha
+          })
+        });
 
-                if (response.ok) {
-                    const data = await response.json();
-                    const content = atob(data.content); // Decode the base64 content
-                    notesTextarea.value = content;
-                    fileSha = data.sha; // Store the file's SHA for later commits
-                    statusMessage.textContent = '✅ [Fetch] OK';
-                } else {
-                    statusMessage.textContent = '❎ [Fetch] Error: ' + response.statusText;
-                }
-            } catch (error) {
-                console.error(error);
-                statusMessage.textContent = '❎ [Fetch] Unknown error';
-            }
+        if (response.ok) {
+          const data = await response.json();
+          fileSha = data.content.sha; // Update the SHA after the commit
+          statusMessage.textContent = '✅ [Commit] OK!';
+        } else {
+          statusMessage.textContent = '❎ [Commit] Error: Maybe wrong password?';
         }
+      } catch (error) {
+        console.error(error);
+        statusMessage.textContent = '❎ [Commit] Unknown error';
+      }
+    }
 
-        async function commitNotes() {
-            statusMessage.textContent = '⏳ [Commit] In progress...';
-            const password = patInput.value;
-            const notes = notesTextarea.value;
+    commitNotesButton.addEventListener('click', commitNotes);
 
-            if (!password) {
-                alert('Password wen?');
-                statusMessage.textContent = '❎ [Commit] No password';
-                return;
-            }
-
-            if (!fileSha) {
-                alert('Notes wher?');
-                statusMessage.textContent = '❎ [Commit] Idk what this error is :/';
-                return;
-            }
-
-            try {
-                const response = await fetch(`https://api.github.com/repos/faizul726/notes/contents/notes.txt`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `Bearer ${password}`,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        message: 'Updated notes.txt',
-                        content: btoa(notes), // Encode the notes to base64
-                        sha: fileSha
-                    })
-                });
-
-                if (response.ok) {
-                    const data = await response.json();
-                    fileSha = data.content.sha; // Update the SHA after the commit
-                    statusMessage.textContent = '✅ [Commit] OK!';
-                } else {
-                    statusMessage.textContent = '❎ [Commit] Error: Maybe wrong password?';
-                }
-            } catch (error) {
-                console.error(error);
-                statusMessage.textContent = '❎ [Commit] Unknown error';
-            }
-        }
-
-        commitNotesButton.addEventListener('click', commitNotes);
-
-        // Fetch the notes on page load if no password is provided
-        fetchNotes();
-    </script>
+    // Fetch the notes on page load if no password is provided
+    fetchNotes();
+  </script>
 </body>
 
 </html>
