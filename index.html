@@ -40,8 +40,7 @@
 </head>
 
 <body>
-  <p><a style="color: black; text-decoration: none;" href="https://github.com/faizul726/notes" target="_blank"><b
-        style="font-size: larger;">Murgi's Notes 🌚</b></a>
+  <p><a style="color: black; text-decoration: none;" href="https://github.com/faizul726/notes" target="_blank"><b style="font-size: larger;">Murgi's Notes 🌚</b></a>
     <br>
     <code>Born on 20241228_1620</code>
   </p>
@@ -187,7 +186,12 @@
     commitNotesButton.addEventListener('click', commitNotes);
 
     toggleCheckboxButton.addEventListener('click', () => {
-      const cursorPosition = notesTextarea.selectionStart;
+      toggleCheckbox();
+    });
+
+    // Toggle checkbox function
+    function toggleCheckbox() {
+      var cursorPosition = notesTextarea.selectionStart;
       const lines = notesTextarea.value.split('\n');
       let charCount = 0;
 
@@ -197,18 +201,36 @@
 
         if (cursorPosition <= charCount) {
           if (line.startsWith('[x]')) {
-            lines[i] = '[ ]' + line.slice(3);
+            lines[i] = line.slice(4); // Remove checkbox
+            cursorPosition-=4
+            
           } else if (line.startsWith('[ ]')) {
-            lines[i] = '[x]' + line.slice(3);
+            lines[i] = '[x]' + line.slice(3); // Check the checkbox
           } else {
-            lines[i] = '[ ] ' + line;
+            lines[i] = '[ ] ' + line; // Add an empty checkbox
+            cursorPosition+=4
           }
           break;
         }
       }
 
-      notesTextarea.value = lines.join('\n');
+      // Save the current cursor position and update the textarea
+      const newText = lines.join('\n');
+      notesTextarea.value = newText;
+
+      // Reset the cursor position to the original one
+      notesTextarea.selectionStart = cursorPosition;
+      notesTextarea.selectionEnd = cursorPosition;
+
       notesTextarea.dispatchEvent(new Event('input')); // Trigger the input event to mark the textarea as modified
+    }
+
+    // Listen for the hotkey (Alt + Right Arrow)
+    document.addEventListener('keydown', (e) => {
+      if (e.altKey && e.key === 'ArrowRight') {
+        e.preventDefault(); // Prevent the default action (if any)
+        toggleCheckbox();   // Trigger the checkbox toggle function
+      }
     });
 
     fetchNotes();
