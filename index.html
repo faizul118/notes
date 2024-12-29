@@ -50,46 +50,44 @@
   <br>
   <p><b id="status"></b><span id="changeStatus"></span></p>
   <textarea spellcheck="false" id="notes"></textarea>
+  <button id="toggleCheckbox" style="display: block; margin-top: 10px;">Toggle Checkbox</button>
 
   <script>
     const commitNotesButton = document.getElementById('commitNotes');
     const notesTextarea = document.getElementById('notes');
     const patInput = document.getElementById('password');
     const statusMessage = document.getElementById('status');
-    const changeStatusMessage = document.getElementById('changeStatus'); // New element for changes status
+    const changeStatusMessage = document.getElementById('changeStatus');
+    const toggleCheckboxButton = document.getElementById('toggleCheckbox');
 
-    let fileSha = ''; // To store the file's SHA for commits
-    let originalContent = ''; // To store the original content for comparison
+    let fileSha = '';
+    let originalContent = '';
 
-    // Function to extract the password from the URL
     function getPasswordFromUrl() {
       const urlParams = new URLSearchParams(window.location.search);
       return urlParams.get('password');
     }
 
-    // Function to remove the password from the URL
     function removePasswordFromUrl() {
       const url = new URL(window.location);
       url.searchParams.delete('password');
       window.history.replaceState({}, document.title, url.pathname);
     }
 
-    // Set the password input automatically if it's present in the URL
     const passwordFromUrl = getPasswordFromUrl();
     if (passwordFromUrl) {
       patInput.value = passwordFromUrl;
-      removePasswordFromUrl(); // Remove password from the URL after retrieving it
+      removePasswordFromUrl();
     }
 
     async function fetchNotes() {
       const password = patInput.value;
 
       statusMessage.textContent = '⏳ [Fetch] In progress...';
-      changeStatusMessage.textContent = ''; // Clear the change status message
+      changeStatusMessage.textContent = '';
 
       try {
         let headers = {};
-        // If password is provided, use it as the Authorization header
         if (password) {
           headers['Authorization'] = `Bearer ${password}`;
         }
@@ -100,10 +98,10 @@
 
         if (response.ok) {
           const data = await response.json();
-          const content = atob(data.content); // Decode the base64 content
+          const content = atob(data.content);
           notesTextarea.value = content;
-          originalContent = content; // Store the original content
-          fileSha = data.sha; // Store the file's SHA for later commits
+          originalContent = content;
+          fileSha = data.sha;
           statusMessage.textContent = '✅ [Fetch] OK';
         } else {
           statusMessage.textContent = '❎ [Fetch] Error: ' + response.statusText;
@@ -117,11 +115,10 @@
     async function commitNotes() {
       const notes = notesTextarea.value;
 
-      // Check if the content is unchanged
       if (notes === originalContent) {
         statusMessage.textContent = '⚠️ [Commit] Nothing to commit';
         statusMessage.classList.remove('modified');
-        return; // Stop further execution
+        return;
       }
 
       statusMessage.textContent = '⏳ [Commit] In progress...';
@@ -130,7 +127,7 @@
       if (!password) {
         alert('Password wen?');
         statusMessage.textContent = '❎ [Commit] No password';
-        changeStatusMessage.textContent = '+ commit pending'; // Keep the change status
+        changeStatusMessage.textContent = '+ commit pending';
         statusMessage.classList.remove('modified');
         return;
       }
@@ -138,7 +135,7 @@
       if (!fileSha) {
         alert('Notes wher?');
         statusMessage.textContent = '❎ [Commit] Idk what this error is :/';
-        changeStatusMessage.textContent = '+ commit pending'; // Keep the change status
+        changeStatusMessage.textContent = '+ commit pending';
         statusMessage.classList.remove('modified');
         return;
       }
@@ -152,46 +149,68 @@
           },
           body: JSON.stringify({
             message: 'Updated notes.txt',
-            content: btoa(notes), // Encode the notes to base64
+            content: btoa(notes),
             sha: fileSha
           })
         });
 
         if (response.ok) {
           const data = await response.json();
-          fileSha = data.content.sha; // Update the SHA after the commit
-          originalContent = notes; // Update the original content
+          fileSha = data.content.sha;
+          originalContent = notes;
           statusMessage.textContent = '✅ [Commit] OK!';
-          changeStatusMessage.textContent = ''; // Clear change status only on success
+          changeStatusMessage.textContent = '';
           statusMessage.classList.remove('modified');
         } else {
           statusMessage.textContent = '❎ [Commit] Error: Maybe wrong password?';
-          changeStatusMessage.textContent = '+ commit pending'; // Keep the change status
+          changeStatusMessage.textContent = '+ commit pending';
           statusMessage.classList.add('modified');
         }
       } catch (error) {
         console.error(error);
         statusMessage.textContent = '❎ [Commit] Unknown error';
-        changeStatusMessage.textContent = '+ commit pending'; // Keep the change status
+        changeStatusMessage.textContent = '+ commit pending';
         statusMessage.classList.add('modified');
       }
     }
 
-
-    // Event listener to show "Modified" indicator
     notesTextarea.addEventListener('input', () => {
       if (notesTextarea.value !== originalContent) {
-        changeStatusMessage.textContent = '+ commit pending'; // Show change status
+        changeStatusMessage.textContent = '+ commit pending';
         statusMessage.classList.add('modified');
       } else {
-        changeStatusMessage.textContent = ''; // Clear change status
+        changeStatusMessage.textContent = '';
         statusMessage.classList.remove('modified');
       }
     });
 
     commitNotesButton.addEventListener('click', commitNotes);
 
-    // Fetch the notes on page load
+    toggleCheckboxButton.addEventListener('click', () => {
+      const cursorPosition = notesTextarea.selectionStart;
+      const lines = notesTextarea.value.split('\n');
+      let charCount = 0;
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        charCount += line.length + 1;
+
+        if (cursorPosition <= charCount) {
+          if (line.startsWith('[x]')) {
+            lines[i] = '[ ]' + line.slice(3);
+          } else if (line.startsWith('[ ]')) {
+            lines[i] = '[x]' + line.slice(3);
+          } else {
+            lines[i] = '[ ] ' + line;
+          }
+          break;
+        }
+      }
+
+      notesTextarea.value = lines.join('\n');
+      notesTextarea.dispatchEvent(new Event('input')); // Trigger the input event to mark the textarea as modified
+    });
+
     fetchNotes();
   </script>
 
