@@ -37,10 +37,10 @@
   <input type="password" placeholder="password" id="password" />
   <button style="margin-left: 8px;" id="commitNotes">Commit</button>
   <br>
+  <textarea spellcheck="false" id="notes"></textarea>
+  <br>
   <p id="status" style="font-weight: bold;"></p>
   <p id="modifiedStatus" style="font-weight: bold; color: orange; display: none;">✏️ Modified (not committed)</p>
-  <br>
-  <textarea spellcheck="false" id="notes"></textarea>
 
   <script>
     const commitNotesButton = document.getElementById('commitNotes');
@@ -105,9 +105,16 @@
     }
 
     async function commitNotes() {
+      const notes = notesTextarea.value;
+
+      // Check if the content is unchanged
+      if (notes === originalContent) {
+        statusMessage.textContent = '⚠️ [Commit] Nothing to commit';
+        return; // Stop further execution
+      }
+
       statusMessage.textContent = '⏳ [Commit] In progress...';
       const password = patInput.value;
-      const notes = notesTextarea.value;
 
       if (!password) {
         alert('Password wen?');
@@ -164,6 +171,7 @@
     // Fetch the notes on page load
     fetchNotes();
   </script>
+
 </body>
 
 </html>
