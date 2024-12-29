@@ -3,7 +3,7 @@ Born on 20241228_1600
 Matject todo:
 - Touch grass
 - test commit
-- Gubel khay kola
+- Bandor khay kola
 
 Okay time to be serious
 - Add special skip word for auto subpack picker
