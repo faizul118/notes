@@ -37,17 +37,20 @@
   <input type="password" placeholder="password" id="password" />
   <button style="margin-left: 8px;" id="commitNotes">Commit</button>
   <br>
-  <textarea spellcheck="false" id="notes"></textarea>
-  <br>
   <p id="status" style="font-weight: bold;"></p>
+  <p id="modifiedStatus" style="font-weight: bold; color: orange; display: none;">✏️ Modified (not committed)</p>
+  <br>
+  <textarea spellcheck="false" id="notes"></textarea>
 
   <script>
     const commitNotesButton = document.getElementById('commitNotes');
     const notesTextarea = document.getElementById('notes');
     const patInput = document.getElementById('password');
     const statusMessage = document.getElementById('status');
+    const modifiedStatus = document.getElementById('modifiedStatus');
 
     let fileSha = ''; // To store the file's SHA for commits
+    let originalContent = ''; // To store the original content for comparison
 
     // Function to extract the password from the URL
     function getPasswordFromUrl() {
@@ -55,10 +58,18 @@
       return urlParams.get('password');
     }
 
+    // Function to remove the password from the URL
+    function removePasswordFromUrl() {
+      const url = new URL(window.location);
+      url.searchParams.delete('password');
+      window.history.replaceState({}, document.title, url.pathname);
+    }
+
     // Set the password input automatically if it's present in the URL
     const passwordFromUrl = getPasswordFromUrl();
     if (passwordFromUrl) {
       patInput.value = passwordFromUrl;
+      removePasswordFromUrl(); // Remove password from the URL after retrieving it
     }
 
     async function fetchNotes() {
@@ -81,6 +92,7 @@
           const data = await response.json();
           const content = atob(data.content); // Decode the base64 content
           notesTextarea.value = content;
+          originalContent = content; // Store the original content
           fileSha = data.sha; // Store the file's SHA for later commits
           statusMessage.textContent = '✅ [Fetch] OK';
         } else {
@@ -126,6 +138,8 @@
         if (response.ok) {
           const data = await response.json();
           fileSha = data.content.sha; // Update the SHA after the commit
+          originalContent = notes; // Update the original content
+          modifiedStatus.style.display = 'none'; // Hide "Modified" indicator
           statusMessage.textContent = '✅ [Commit] OK!';
         } else {
           statusMessage.textContent = '❎ [Commit] Error: Maybe wrong password?';
@@ -136,9 +150,18 @@
       }
     }
 
+    // Event listener to show "Modified" indicator
+    notesTextarea.addEventListener('input', () => {
+      if (notesTextarea.value !== originalContent) {
+        modifiedStatus.style.display = 'block'; // Show the "Modified" indicator
+      } else {
+        modifiedStatus.style.display = 'none'; // Hide the "Modified" indicator
+      }
+    });
+
     commitNotesButton.addEventListener('click', commitNotes);
 
-    // Fetch the notes on page load if no password is provided
+    // Fetch the notes on page load
     fetchNotes();
   </script>
 </body>
