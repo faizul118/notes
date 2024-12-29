@@ -26,31 +26,38 @@
     #password::placeholder {
       font-family: "Courier New", monospace;
     }
+
+    #status {
+      font-weight: bold;
+    }
+
+    #status.modified {
+      color: orange;
+    }
   </style>
 </head>
 
 <body>
-  <p><b style="font-size: larger;">Murgi's Notes 🌚</b>
+  <p><a style="color: black; text-decoration: none;" href="https://github.com/faizul726/notes" target="_blank"><b
+        style="font-size: larger;">Murgi's Notes 🌚</b></a>
     <br>
     <code>Born on 20241228_1620</code>
   </p>
   <input type="password" placeholder="password" id="password" />
   <button style="margin-left: 8px;" id="commitNotes">Commit</button>
   <br>
+  <p id="status"></p>
   <textarea spellcheck="false" id="notes"></textarea>
-  <br>
-  <p id="status" style="font-weight: bold;"></p>
-  <p id="modifiedStatus" style="font-weight: bold; color: orange; display: none;">✏️ Modified (not committed)</p>
 
   <script>
     const commitNotesButton = document.getElementById('commitNotes');
     const notesTextarea = document.getElementById('notes');
     const patInput = document.getElementById('password');
     const statusMessage = document.getElementById('status');
-    const modifiedStatus = document.getElementById('modifiedStatus');
 
     let fileSha = ''; // To store the file's SHA for commits
     let originalContent = ''; // To store the original content for comparison
+    let lastStatusMessage = ''; // To store the last non-modified status message
 
     // Function to extract the password from the URL
     function getPasswordFromUrl() {
@@ -76,6 +83,7 @@
       const password = patInput.value;
 
       statusMessage.textContent = '⏳ [Fetch] In progress...';
+      lastStatusMessage = statusMessage.textContent; // Store the last status message
 
       try {
         let headers = {};
@@ -95,12 +103,15 @@
           originalContent = content; // Store the original content
           fileSha = data.sha; // Store the file's SHA for later commits
           statusMessage.textContent = '✅ [Fetch] OK';
+          lastStatusMessage = statusMessage.textContent; // Update the last status message
         } else {
           statusMessage.textContent = '❎ [Fetch] Error: ' + response.statusText;
+          lastStatusMessage = statusMessage.textContent; // Update the last status message
         }
       } catch (error) {
         console.error(error);
         statusMessage.textContent = '❎ [Fetch] Unknown error';
+        lastStatusMessage = statusMessage.textContent; // Update the last status message
       }
     }
 
@@ -110,21 +121,28 @@
       // Check if the content is unchanged
       if (notes === originalContent) {
         statusMessage.textContent = '⚠️ [Commit] Nothing to commit';
+        lastStatusMessage = statusMessage.textContent; // Update the last status message
+        statusMessage.classList.remove('modified');
         return; // Stop further execution
       }
 
       statusMessage.textContent = '⏳ [Commit] In progress...';
+      lastStatusMessage = statusMessage.textContent; // Update the last status message
       const password = patInput.value;
 
       if (!password) {
         alert('Password wen?');
         statusMessage.textContent = '❎ [Commit] No password';
+        lastStatusMessage = statusMessage.textContent; // Update the last status message
+        statusMessage.classList.remove('modified');
         return;
       }
 
       if (!fileSha) {
         alert('Notes wher?');
         statusMessage.textContent = '❎ [Commit] Idk what this error is :/';
+        lastStatusMessage = statusMessage.textContent; // Update the last status message
+        statusMessage.classList.remove('modified');
         return;
       }
 
@@ -146,23 +164,30 @@
           const data = await response.json();
           fileSha = data.content.sha; // Update the SHA after the commit
           originalContent = notes; // Update the original content
-          modifiedStatus.style.display = 'none'; // Hide "Modified" indicator
           statusMessage.textContent = '✅ [Commit] OK!';
+          lastStatusMessage = statusMessage.textContent; // Update the last status message
+          statusMessage.classList.remove('modified');
         } else {
           statusMessage.textContent = '❎ [Commit] Error: Maybe wrong password?';
+          lastStatusMessage = statusMessage.textContent; // Update the last status message
+          statusMessage.classList.remove('modified');
         }
       } catch (error) {
         console.error(error);
         statusMessage.textContent = '❎ [Commit] Unknown error';
+        lastStatusMessage = statusMessage.textContent; // Update the last status message
+        statusMessage.classList.remove('modified');
       }
     }
 
     // Event listener to show "Modified" indicator
     notesTextarea.addEventListener('input', () => {
       if (notesTextarea.value !== originalContent) {
-        modifiedStatus.style.display = 'block'; // Show the "Modified" indicator
+        statusMessage.textContent = '✏️ Modified + commit pending';
+        statusMessage.classList.add('modified');
       } else {
-        modifiedStatus.style.display = 'none'; // Hide the "Modified" indicator
+        statusMessage.textContent = lastStatusMessage; // Restore the last status message
+        statusMessage.classList.remove('modified');
       }
     });
 
