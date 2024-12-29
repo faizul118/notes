@@ -7,8 +7,8 @@ Matject todo:
 - Bandor khay kola
 
 Okay time to be serious
-- Add special skip word for auto subpack picker
-- change persists to persist in MD
-- move note status below password
-- remove subpack tip from inject list
-- forgor
+[ ] Add special skip word for auto subpack picker
+[ ] change persists to persist in MD
+[x] move note status below password
+[ ] remove subpack tip from inject list
+[ ] forgor
