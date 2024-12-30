@@ -8,6 +8,8 @@ Matject todo:
 - test commit
 - Bandor khay kola
 
+- add do not copy note md
+
 Okay time to be serious
 [ ] add listing for mcpack/zips auto mtd
 [ ] add manifest checker (mtnxt)
