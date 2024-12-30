@@ -9,6 +9,7 @@ Matject todo:
 - Bandor khay kola
 
 Okay time to be serious
+[ ] add listing for mcpack/zips auto mtd
 [ ] add manifest checker (mtnxt)
 [ ] Add special skip word for auto subpack picker
 [ ] change persists to persist in MD
