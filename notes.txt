@@ -13,4 +13,5 @@ Okay time to be serious
 [ ] change persists to persist in MD
 [x] move note status below password
 [ ] remove subpack tip from inject list
+[ ] don't import subpack if raw materials were imported from .zip.mcpack
 [ ] forgor
