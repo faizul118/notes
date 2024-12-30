@@ -14,4 +14,6 @@ Okay time to be serious
 [x] move note status below password
 [ ] remove subpack tip from inject list
 [ ] don't import subpack if raw materials were imported from .zip.mcpack
+[ ] use start for unlocker
+[ ] use pkill to close iobit prompt
 [ ] forgor
