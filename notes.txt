@@ -19,4 +19,5 @@ Okay time to be serious
 [ ] use start for unlocker
 [ ] add anti loop for cache
 [x] use pkill to close iobit prompt
+- special word should be 'skip'
 [ ] forgor
