@@ -16,5 +16,6 @@ Okay time to be serious
 [ ] remove subpack tip from inject list
 [ ] don't import subpack if raw materials were imported from .zip.mcpack
 [ ] use start for unlocker
-[ ] use pkill to close iobit prompt
+[ ] add anti loop for cache
+[x] use pkill to close iobit prompt
 [ ] forgor
