@@ -2,6 +2,7 @@ Born on 20241228_1600
 
 test commit
 test commit 2
+- only tip text in gren
 - add debug option for sizes
 test commit 3
 - change restore confirm to horizontal
