@@ -4,6 +4,7 @@ test commit
 test commit 2
 test commit 3
 Matject todo:
+[ ] - add text replacement for compatcheck
 - add tip for disabling auto open explorer
 - Touch grass
 - test commit
