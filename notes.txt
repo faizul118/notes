@@ -4,6 +4,7 @@ test commit
 test commit 2
 test commit 3
 Matject todo:
+- do json check for mats
 [ ] - add text replacement for compatcheck
 - add tip for disabling auto open explorer
 - Touch grass
