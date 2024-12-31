@@ -3,6 +3,8 @@ Born on 20241228_1600
 test commit
 test commit 2
 test commit 3
+- change restore confirm to horizontal
+- run normally if uac declined
 Matject todo:
 - do json check for mats
 [ ] - add text replacement for compatcheck
