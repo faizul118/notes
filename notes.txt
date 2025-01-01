@@ -1,6 +1,7 @@
 Born on 20241228_1600
 
 test commit
+- add /i for /skip and other fixed variables
 - clarify basic english requirements and iobit
 test commit 2
 - hide cursor using escape
