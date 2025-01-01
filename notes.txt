@@ -2,6 +2,7 @@ Born on 20241228_1600
 
 test commit
 test commit 2
+- move exe to settings
 - only tip text in gren
 - add debug option for sizes
 test commit 3
