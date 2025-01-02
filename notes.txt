@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add open settings
 [ ] change yn to colorful
 [x] add /i for /skip and other fixed variables
 [ ] clarify basic english requirements and iobit
@@ -19,7 +20,7 @@ Born on 20241228_1600
 [ ] add anti loop for cache
 [x] use pkill to close iobit prompt
 [x] special word should be 'skip'
-[ ] change logo white
+[x] change logo white
 [ ] add do not copy note md
 [ ] add license
 [ ] separate inject for single uac
