@@ -1,7 +1,8 @@
 Born on 20241228_1600
 
-[ ] add open settings
+[x] add open settings
 [ ] change yn to colorful
+[ ] add restored date
 [x] add /i for /skip and other fixed variables
 [ ] clarify basic english requirements and iobit
 [ ] hide cursor using escape
