@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] change yn to colorful
 [x] add /i for /skip and other fixed variables
 [ ] clarify basic english requirements and iobit
 [ ] hide cursor using escape
