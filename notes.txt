@@ -1,40 +1,39 @@
 Born on 20241228_1600
 
-test commit
-- add /i for /skip and other fixed variables
-- clarify basic english requirements and iobit
-test commit 2
-- hide cursor using escape
-- move exe to settings
-- only tip text in gren
-- add debug option for sizes
-test commit 3
-- change restore confirm to horizontal
-- run normally if uac declined
-Matject todo:
-- do json check for mats
-[ ] - add text replacement for compatcheck
-- add tip for disabling auto open explorer
-- Touch grass
-- test commit
-- add space correction tmp_input
-- Bandor khay kola
-- change logo white
-
-- add do not copy note md
-- add license
-- separate inject for single uac
-
-Okay time to be serious
-[ ] add listing for mcpack/zips auto mtd
+[x] add /i for /skip and other fixed variables
+[ ] clarify basic english requirements and iobit
+[ ] hide cursor using escape
+[ ] move exe to settings
+[x] only tip text in gren
+[ ] add debug option for sizes
+[ ] change restore confirm to horizontal
+[ ] run normally if uac declined
+[x] add listing for mcpack/zips auto mtd
 [ ] add manifest checker (mtnxt)
-[ ] Add special skip word for auto subpack picker
+[x] Add special skip word for auto subpack picker
 [ ] change persists to persist in MD
 [x] move note status below password
-[ ] remove subpack tip from inject list
+[x] remove subpack tip from inject list
 [ ] don't import subpack if raw materials were imported from .zip.mcpack
-[ ] use start for unlocker
 [ ] add anti loop for cache
 [x] use pkill to close iobit prompt
-- special word should be 'skip'
+[x] special word should be 'skip'
+[ ] change logo white
+[ ] add do not copy note md
+[ ] add license
+[ ] separate inject for single uac
+[ ] do .json check for mats (backup)
+[x] add text replacement for compatcheck
+[ ] add tip for disabling auto open explorer
+[x] add space correction tmp_input
+
+test commit
+test commit 2
+test commit 3
+Matject todo:
+- Touch grass
+- test commit
+- Bandor khay kola
+
+Okay time to be serious
 [ ] forgor
