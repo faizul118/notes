@@ -1,5 +1,8 @@
 Born on 20241228_1600
 
+[ ] add tips
+[ ] prompt for material-updater on first run
+[ ] perhaps, add updater for material-updater
 [ ] move mcpk subpack prompt below list
 [x] add open settings
 [ ] use start w/ ! for import mcpack
