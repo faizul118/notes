@@ -1,8 +1,9 @@
 Born on 20241228_1600
 
+[ ] move mcpk subpack prompt below list
 [x] add open settings
 [ ] change yn to colorful
-do not multiple, new line, rplc bkp
+[ ] do not multiple, new line, rplc bkp
 [ ] add restored date
 [x] add /i for /skip and other fixed variables
 [ ] clarify basic english requirements and iobit
