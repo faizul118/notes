@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] move repo to fzul118 (URGENT)
+[ ] add tip for subpack (abt activating in game)
 [ ] add tips
 [ ] remove m-u placebo if exe missing
 [ ] prompt for material-updater on first run
