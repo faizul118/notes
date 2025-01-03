@@ -2,6 +2,7 @@ Born on 20241228_1600
 
 [ ] move mcpk subpack prompt below list
 [x] add open settings
+[ ] use start w/ ! for import mcpack
 [ ] change yn to colorful
 [ ] do not multiple, new line, rplc bkp
 [ ] add restored date
