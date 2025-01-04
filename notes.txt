@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] add how updater works
+[ ] use start with cmd /k + args
 [ ] move repo to fzul118 (URGENT)
 [ ] add tip for subpack (abt activating in game)
 [ ] add tips
