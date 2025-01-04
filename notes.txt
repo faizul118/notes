@@ -1,28 +1,29 @@
 Born on 20241228_1600
 
+[ ] add news
 [ ] clear variables of iconbat
-[ ] add how updater works
-[ ] use start with cmd /k + args
+[x] add how updater works
+[x] use start with cmd /k + args
 [ ] move repo to fzul118 (URGENT)
-[ ] add tip for subpack (abt activating in game)
+[x] add tip for subpack (abt activating in game)
 [ ] add tips
 [ ] remove m-u placebo if exe missing
 [ ] prompt for material-updater on first run
 [ ] perhaps, add updater for material-updater
-[ ] move mcpk subpack prompt below list
+[x] move mcpk subpack prompt below list
 [x] add open settings
 [ ] use start w/ ! for import mcpack
-[ ] change yn to colorful
+[ ] change yn to colorful (maybe done partially)
 [ ] do not multiple, new line, rplc bkp
 [ ] add restored date
 [x] add /i for /skip and other fixed variables
-[ ] clarify basic english requirements and iobit
-[ ] hide cursor using escape
+[ ] clarify basic english requirements and iobit in MD
+[x] hide cursor using escape
 [ ] move exe to settings
 [x] only tip text in gren
-[ ] add debug option for sizes
-[ ] change restore confirm to horizontal
-[ ] run normally if uac declined
+[ ] add debugbat option for sizes
+[x] change restore confirm to horizontal
+[x] run normally if uac declined (decided to close instead)
 [x] add listing for mcpack/zips auto mtd
 [ ] add manifest checker (mtnxt)
 [x] Add special skip word for auto subpack picker
