@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] clear variables of iconbat
 [ ] add how updater works
 [ ] use start with cmd /k + args
 [ ] move repo to fzul118 (URGENT)
