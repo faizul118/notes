@@ -1,5 +1,8 @@
 Born on 20241228_1600
 
+[ ] rm mtrls only if manual
+[ ] mtnxt won't run if materials folder is not empty
+
 [ ] add anti loop for cache
 [ ] add debugbat option for sizes
 [ ] add do not copy note md
