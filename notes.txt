@@ -1,47 +1,49 @@
 Born on 20241228_1600
 
-[ ] add news
-[ ] clear variables of iconbat
-[x] add how updater works
-[x] use start with cmd /k + args
-[ ] move repo to fzul118 (URGENT)
-[x] add tip for subpack (abt activating in game)
-[ ] add tips
-[ ] remove m-u placebo if exe missing
-[ ] prompt for material-updater on first run
-[ ] perhaps, add updater for material-updater
-[x] move mcpk subpack prompt below list
-[x] add open settings
-[ ] use start w/ ! for import mcpack
-[ ] change yn to colorful (maybe done partially)
-[ ] do not multiple, new line, rplc bkp
-[ ] add restored date
-[x] add /i for /skip and other fixed variables
-[ ] clarify basic english requirements and iobit in MD
-[x] hide cursor using escape
-[ ] move exe to settings
-[x] only tip text in gren
-[ ] add debugbat option for sizes
-[x] change restore confirm to horizontal
-[x] run normally if uac declined (decided to close instead)
-[x] add listing for mcpack/zips auto mtd
-[ ] add manifest checker (mtnxt)
-[x] Add special skip word for auto subpack picker
-[ ] change persists to persist in MD
-[x] move note status below password
-[x] remove subpack tip from inject list
-[ ] don't import subpack if raw materials were imported from .zip.mcpack
 [ ] add anti loop for cache
-[x] use pkill to close iobit prompt
-[x] special word should be 'skip'
-[x] change logo white
+[ ] add debugbat option for sizes
 [ ] add do not copy note md
 [ ] add license
-[ ] separate inject for single uac
-[ ] do .json check for mats (backup)
-[x] add text replacement for compatcheck
+[ ] add manifest checker (mtnxt)
+[ ] add news
+[ ] add restored date
 [ ] add tip for disabling auto open explorer
+[ ] add tips
+[ ] change persists to persist in MD
+[ ] change yn to colorful (maybe done partially)
+[ ] clarify basic english requirements and iobit in MD
+[ ] clear variables of iconbat
+[ ] do .json check for mats (backup)
+[ ] don't import subpack if raw materials were imported from .zip.mcpack
+[ ] do not multiple, new line, rplc bkp
+[ ] move exe to settings
+[ ] perhaps, add updater for material-updater
+[ ] prompt for material-updater on first run
+[ ] remove m-u placebo if exe missing
+[ ] separate inject for single uac
+[ ] use start w/ ! for import mcpack
+
+[x] add /i for /skip and other fixed variables
+[x] add how updater works
+[x] add listing for mcpack/zips auto mtd
+[x] add open settings
 [x] add space correction tmp_input
+[x] Add special skip word for auto subpack picker
+[x] add text replacement for compatcheck
+[x] add tip for subpack (abt activating in game)
+[x] change logo white
+[x] change restore confirm to horizontal
+[x] hide cursor using escape
+[x] move mcpk subpack prompt below list
+[x] move note status below password
+[x] move repo to fzul118 (URGENT)
+[x] only tip text in gren
+[x] remove subpack tip from inject list
+[x] run normally if uac declined (decided to close instead)
+[x] special word should be 'skip'
+[x] use pkill to close iobit prompt
+[x] use start with cmd /k + args
+
 
 test commit
 test commit 2
