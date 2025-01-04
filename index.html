@@ -60,24 +60,20 @@
     let fileSha = '';
     let originalContent = '';
 
-    // Get password from URL and remove it immediately
-    function getPasswordFromUrl() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const password = urlParams.get('password');
-      
+    function getQueryParams() {
+      const params = new URLSearchParams(window.location.search);
+      const password = params.get('password');
       if (password) {
-        // Remove the password from the URL
-        const url = new URL(window.location);
-        url.searchParams.delete('password');
-        window.history.replaceState({}, document.title, url.pathname); // Update the URL without reloading
+        patInput.value = password;
+        // Remove the password from the URL without leaving a history entry
+        params.delete('password');
+        let newUrl = window.location.pathname;
+        const queryString = params.toString();
+        if (queryString) {
+          newUrl += '?' + queryString;
+        }
+        window.history.replaceState({}, document.title, newUrl);
       }
-      
-      return password;
-    }
-
-    const passwordFromUrl = getPasswordFromUrl();
-    if (passwordFromUrl) {
-      patInput.value = passwordFromUrl; // Set the password field with the extracted value
     }
 
     async function fetchNotes() {
@@ -174,6 +170,47 @@
       }
     }
 
+    function handleShortcut(event) {
+      if (event.altKey && event.key === 'ArrowRight') {
+        event.preventDefault();
+        const textarea = notesTextarea;
+        const start = textarea.selectionStart;
+        const end = textarea.selectionEnd;
+        const lines = textarea.value.split('\n');
+        let currentLineIndex = textarea.value.substring(0, start).split('\n').length - 1;
+        let currentLine = lines[currentLineIndex];
+        let cursorShift = 0;
+
+        if (currentLine.startsWith('[ ] ')) {
+          lines[currentLineIndex] = `[x] ${currentLine.substring(4)}`;
+          cursorShift = 0;
+        } else if (currentLine.startsWith('[x] ')) {
+          lines[currentLineIndex] = currentLine.substring(4);
+          cursorShift = -4;
+        } else {
+          lines[currentLineIndex] = `[ ] ${currentLine}`;
+          cursorShift = 4;
+        }
+
+        textarea.value = lines.join('\n');
+
+        // Calculate the new cursor position
+        const newLineStart = textarea.value.split('\n').slice(0, currentLineIndex).join('\n').length + (currentLineIndex > 0 ? 1 : 0);
+        let newCursorPos = start + cursorShift;
+        const lineLength = lines[currentLineIndex].length;
+        // Ensure cursor does not move if it's at the start or end of the line
+        if (start === newLineStart) {
+          newCursorPos = start + 4;
+        } else if (start === newLineStart + lineLength - cursorShift) {
+          newCursorPos = start + cursorShift;
+        }
+
+        textarea.setSelectionRange(newCursorPos, newCursorPos);
+        textarea.dispatchEvent(new Event('input'));
+      }
+    }
+
+    notesTextarea.addEventListener('keydown', handleShortcut);
     notesTextarea.addEventListener('input', () => {
       if (notesTextarea.value !== originalContent) {
         changeStatusMessage.textContent = '+ commit pending';
@@ -185,7 +222,10 @@
     });
 
     commitNotesButton.addEventListener('click', commitNotes);
-    fetchNotes();
+    window.addEventListener('DOMContentLoaded', () => {
+      getQueryParams();
+      fetchNotes();
+    });
   </script>
 
 </body>
