@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] rename MCPACK -> MCPACKS
 [ ] ensure clearvariables work for createicon
 [ ] add clipboard replace warning in MD
 [ ] test whether call mods\functions.bat :label works
