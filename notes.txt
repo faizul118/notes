@@ -3,13 +3,13 @@ Born on 20241228_1600
 [ ] rm mtrls only if manual
 [ ] mtnxt won't run if materials folder is not empty
 
-[ ] add anti loop for cache
-[ ] add debugbat option for sizes
-[ ] add do not copy note md
+[x] add anti loop for cache
+[x] add debugbat option for sizes
+[ ] add do not copy note md (partially done)
 [ ] add license
-[ ] add manifest checker (mtnxt)
+[x] add manifest checker (mtnxt)
 [ ] add news
-[ ] add restored date
+[x] add restored date
 [ ] add tip for disabling auto open explorer
 [ ] add tips
 [ ] change persists to persist in MD
@@ -18,7 +18,7 @@ Born on 20241228_1600
 [ ] clear variables of iconbat
 [ ] do .json check for mats (backup)
 [ ] don't import subpack if raw materials were imported from .zip.mcpack
-[ ] do not multiple, new line, rplc bkp
+[x] do not multiple, new line, rplc bkp
 [ ] move exe to settings
 [ ] perhaps, add updater for material-updater
 [ ] prompt for material-updater on first run
