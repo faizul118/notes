@@ -1,31 +1,31 @@
 Born on 20241228_1600
 
-[x] rm mtrls only if manual
-[x] mtnxt won't run if materials folder is not empty
-
-[x] add anti loop for cache
-[x] add debugbat option for sizes
 [ ] add do not copy note md (partially done)
 [ ] add license
-[x] add manifest checker (mtnxt)
 [ ] add news
-[x] add restored date
-[x] add tip for disabling auto open explorer
 [ ] add tips
-[ ] change persists to persist in MD
-[x] change yn to colorful (fully done ig)
 [ ] clarify basic english requirements and iobit in MD
-[ ] clear variables of iconbat
 [ ] do .json check for mats (backup)
 [ ] don't import subpack if raw materials were imported from .zip.mcpack
-[x] do not multiple, new line, rplc bkp
-[ ] move exe to settings
+[ ] move exe to settings (not doing)
 [ ] perhaps, add updater for material-updater
-[ ] prompt for material-updater on first run
-[x] remove m-u placebo if exe missing
-[ ] separate inject for single uac
-[x] use start w/ ! for import mcpack (not possible, added default association msg instead)
 
+
+[x] change persists to persist in MD
+[x] clear variables of iconbat (CHECK AGAIN)
+[x] separate inject for single uac
+[x] prompt for material-updater on first run
+[x] add anti loop for cache
+[x] add debugbat option for sizes
+[x] add manifest checker (mtnxt)
+[x] add restored date
+[x] add tip for disabling auto open explorer
+[x] change yn to colorful (fully done ig)
+[x] do not multiple, new line, rplc bkp
+[x] remove m-u placebo if exe missing
+[x] use start w/ ! for import mcpack (not possible, added default association msg instead)
+[x] rm mtrls only if manual
+[x] mtnxt won't run if materials folder is not empty
 [x] add /i for /skip and other fixed variables
 [x] add how updater works
 [x] add listing for mcpack/zips auto mtd
