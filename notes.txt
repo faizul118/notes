@@ -1,7 +1,7 @@
 Born on 20241228_1600
 
-[ ] rm mtrls only if manual
-[ ] mtnxt won't run if materials folder is not empty
+[x] rm mtrls only if manual
+[x] mtnxt won't run if materials folder is not empty
 
 [x] add anti loop for cache
 [x] add debugbat option for sizes
@@ -10,10 +10,10 @@ Born on 20241228_1600
 [x] add manifest checker (mtnxt)
 [ ] add news
 [x] add restored date
-[ ] add tip for disabling auto open explorer
+[x] add tip for disabling auto open explorer
 [ ] add tips
 [ ] change persists to persist in MD
-[ ] change yn to colorful (maybe done partially)
+[x] change yn to colorful (fully done ig)
 [ ] clarify basic english requirements and iobit in MD
 [ ] clear variables of iconbat
 [ ] do .json check for mats (backup)
@@ -22,9 +22,9 @@ Born on 20241228_1600
 [ ] move exe to settings
 [ ] perhaps, add updater for material-updater
 [ ] prompt for material-updater on first run
-[ ] remove m-u placebo if exe missing
+[x] remove m-u placebo if exe missing
 [ ] separate inject for single uac
-[ ] use start w/ ! for import mcpack
+[x] use start w/ ! for import mcpack (not possible, added default association msg instead)
 
 [x] add /i for /skip and other fixed variables
 [x] add how updater works
