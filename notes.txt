@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add clipboard replace warning in MD
 [ ] test whether call mods\functions.bat :label works
 [ ] add do not copy note md (partially done)
 [ ] add license
