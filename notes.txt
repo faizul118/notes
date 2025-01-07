@@ -1,6 +1,8 @@
 Born on 20241228_1600
 
 [ ] rename UAC to admin prompt
+[ ] mtjct != patched
+[ ] u don need brd for mtjt
 [x] running to starting...
 [x] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
 [x] rename MCPACK -> MCPACKS
