@@ -1,20 +1,20 @@
 Born on 20241228_1600
 
-[ ] running to starting...
-[ ] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
-[ ] rename MCPACK -> MCPACKS
-[ ] ensure clearvariables work for createicon
-[ ] add clipboard replace warning in MD
-[ ] test whether call mods\functions.bat :label works
+[x] running to starting...
+[x] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
+[x] rename MCPACK -> MCPACKS
+[x] ensure clearvariables work for createicon
+[x] add clipboard replace warning in MD
+[x] test whether call mods\functions.bat :label works (doesn't work)
 [ ] add do not copy note md (partially done)
 [ ] add license
 [ ] add news
-[ ] add tips
+[x] add tips
 [ ] clarify basic english requirements and iobit in MD
-[ ] do .json check for mats (backup)
-[ ] don't import subpack if raw materials were imported from .zip.mcpack
+[x] do .json check for mats (backup) (not doing)
+[x] don't import subpack if raw materials were imported from .zip.mcpack
 [ ] move exe to settings (not doing)
-[ ] perhaps, add updater for material-updater
+[ ] perhaps, add updater for material-updater (not doing)
 
 
 [x] change persists to persist in MD
