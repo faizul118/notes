@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] rename UAC to admin prompt
 [x] running to starting...
 [x] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
 [x] rename MCPACK -> MCPACKS
