@@ -2,6 +2,7 @@ Born on 20241228_1600
 
 [ ] rename UAC to admin prompt
 [ ] mtjct != patched
+[ ] add log for injected resource pack
 [ ] u don need brd for mtjt
 [x] running to starting...
 [x] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
