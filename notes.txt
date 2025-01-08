@@ -1,6 +1,7 @@
 Born on 20241228_1600
 
 [ ] rename UAC to admin prompt
+[ ] add is it safe (context: rmdir, del) to web
 [ ] mtjct != patched
 [ ] add log for injected resource pack
 [ ] u don need brd for mtjt
