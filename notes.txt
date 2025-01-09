@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add manifest-checker: material-compatibility-checker:
 [ ] see runAs mechanism from winaero take owner
 [ ] add powershell requirements md + powershell detection
 [ ] add full restore detection by comparing file count + placing a temp file
