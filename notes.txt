@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-[ ] add powershell requirements md
+[ ] add powershell requirements md + powershell detection
 [ ] add full restore detection by comparing file count + placing a temp file
 [ ] add dyn restore detection by placing a file during restore.
 [ ] rename UAC to admin prompt
