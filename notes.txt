@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] censor username for 0_debug
 [ ] add extras about other func in r&o web
 [ ] add notes for creators web
 [ ] add manifest-checker: material-compatibility-checker:
