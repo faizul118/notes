@@ -1,12 +1,13 @@
 Born on 20241228_1600
 
+[ ] add powershell requirements md
 [ ] add full restore detection by comparing file count + placing a temp file
 [ ] add dyn restore detection by placing a file during restore.
 [ ] rename UAC to admin prompt
 [ ] add is it safe (context: rmdir, del) to web
 [ ] add msg about run from unverified publisher in unlock winapps
-[ ] sign bat
-[ ] mtjct != patched
+[ ] sign bat (not possible)
+[ ] mtjct != patched in md + discord newb
 [ ] add log for injected resource pack
 [ ] u don need brd for mtjt
 [x] running to starting...
