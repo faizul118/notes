@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] include matjet meme both in web and md
 [ ] use for /f for settings
 [ ] change settings to .data
 [ ] add signature verification for downloaded files 
