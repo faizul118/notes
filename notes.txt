@@ -1,8 +1,8 @@
 Born on 20241228_1600
 
 [ ] follow keepachangelog style
-[ ] add curl check for annc
-[ ] remove curl based things if curl missing
+[x] add curl check for annc
+[x] remove curl based things if curl missing
 [ ] killswitch for updates
 [ ] show cmd in auto and manual when dbg on
 [ ] add marketplace warning for mtnxt
