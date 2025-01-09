@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] add curl check for annc
+[ ] remove curl based things if curl missing
 [ ] killswitch for updates
 [ ] show cmd in auto and manual when dbg on
 [ ] add marketplace warning for mtnxt
