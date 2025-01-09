@@ -1,5 +1,9 @@
 Born on 20241228_1600
 
+[ ] use for /f for settings
+[ ] change settings to .data
+[ ] add signature verification for downloaded files 
+[ ] add av scan for downloaded zip + extract
 [ ] add censored to cache packs as well
 [ ] follow keepachangelog style
 [x] add curl check for annc
