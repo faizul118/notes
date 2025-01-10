@@ -1,49 +1,49 @@
 Born on 20241228_1600
 
-[ ] include matjet meme both in web and md
 [ ] use for /f for settings
-[ ] change settings to .data
-[ ] add signature verification for downloaded files 
-[ ] add av scan for downloaded zip + extract
-[ ] add censored to cache packs as well
-[ ] follow keepachangelog style
-[x] add curl check for annc
-[x] remove curl based things if curl missing
-[ ] killswitch for updates
-[ ] show cmd in auto and manual when dbg on
-[ ] add marketplace warning for mtnxt
-[ ] censor username for 0_debug
-[ ] add extras about other func in r&o web
-[ ] add notes for creators web
-[x] add manifest-checker: OK material-compatibility-checker: (scraped)
-[x] see runAs mechanism from winaero take owner
-[ ] add powershell requirements md + powershell detection DONE
-[ ] add full restore detection by comparing file count + placing a temp file
-[ ] add dyn restore detection by placing a temp file during restore.
-[x] rename UAC to admin prompt (renamed to admin permission request)
-[ ] add is it safe (context: rmdir, del) to web
-[x] add msg about run from unverified publisher in unlock winapps
-[ ] sign bat (not possible)
-[ ] mtjct != patched in md + discord newb
-[x] add log for injected resource pack (added logs for everything else
 [ ] u don need brd for mtjt
-[x] running to starting...
-[x] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
-[x] rename MCPACK -> MCPACKS
-[x] ensure clearvariables work for createicon
-[x] add clipboard replace warning in MD
-[x] test whether call mods\functions.bat :label works (doesn't work)
-[ ] add do not copy note md (partially done)
-[ ] add license
-[ ] add news
-[x] add tips
+[ ] sign bat (not possible)
+[ ] show cmd in auto and manual when dbg on
+[x] perhaps, add updater for material-updater (not doing)
+[ ] mtjct != patched in md + discord newb
+[x] move exe to settings (not doing)
+[ ] killswitch for updates
+[ ] include matjet meme both in web and md
+[ ] follow keepachangelog style
 [ ] clarify basic english requirements and iobit in MD
-[x] do .json check for mats (backup) (not doing)
+[ ] change settings to .data (later)
+[ ] censor username for 0_debug
+[ ] add signature verification for downloaded files
+[ ] add powershell requirements md + powershell detection DONE
+[ ] add notes for creators web
+[x] add news (announcements)
+[ ] add marketplace warning for mtnxt
+[ ] add license
+[ ] add is it safe (context: rmdir, del) to web
+[ ] add full restore detection by comparing file count + placing a temp file
+[ ] add extras about other func in r&o web
+[ ] add dyn restore detection by placing a temp file during restore.
+[ ] add do not copy note md (partially done)
+[x] add censored to cache packs as well
+[ ] add av scan for downloaded zip + extract
+
+
+[x] test whether call mods\functions.bat :label works (doesn't work)
+[x] see runAs mechanism from winaero take owner
+[x] running to starting...
+[x] rename UAC to admin prompt (renamed to admin permission request)
+[x] rename MCPACK -> MCPACKS
+[x] remove curl based things if curl missing
+[x] perhaps remove multiple wanring and add smth like: Add your desired shader in MCPACKS
+[x] ensure clearvariables work for createicon
 [x] don't import subpack if raw materials were imported from .zip.mcpack
-[ ] move exe to settings (not doing)
-[ ] perhaps, add updater for material-updater (not doing)
-
-
+[x] do .json check for mats (backup) (not doing)
+[x] add tips
+[x] add msg about run from unverified publisher in unlock winapps
+[x] add manifest-checker: OK material-compatibility-checker: (scraped)
+[x] add log for injected resource pack (added logs for everything else
+[x] add curl check for annc
+[x] add clipboard replace warning in MD
 [x] change persists to persist in MD
 [x] clear variables of iconbat (CHECK AGAIN)
 [x] separate inject for single uac
