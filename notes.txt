@@ -1,9 +1,10 @@
 Born on 20241228_1600
 
 [ ] use for /f for settings
+[ ] add av scan for jq and m-u too
 [ ] u don need brd for mtjt
 [ ] sign bat (not possible)
-[ ] show cmd in auto and manual when dbg on
+[x] show cmd in auto and manual when dbg on
 [x] perhaps, add updater for material-updater (not doing)
 [ ] mtjct != patched in md + discord newb
 [x] move exe to settings (not doing)
