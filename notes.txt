@@ -1,6 +1,7 @@
 Born on 20241228_1600
 
-[ ] use for /f for settings
+[ ] enforce uwa check by checking file presence at end + if fails tell user to use 0_debug
+[ ] use for /f for settings.txt
 [ ] add av scan for jq and m-u too
 [ ] u don need brd for mtjt
 [ ] sign bat (not possible)
