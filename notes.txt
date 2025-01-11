@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] try set "str=hello world" & echo %str:hello=hlw% & echo !%str:hello=hlw2%:hlw2=hlw3!
 [ ] rename debug to _debug
 [ ] enforce uwa check by checking file presence at end + if fails tell user to use 0_debug
 [ ] use for /f for settings.txt
