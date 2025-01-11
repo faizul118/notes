@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] what is dynamic restore (web)
 [ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
 [ ] try set "str=hello world" & echo %str:hello=hlw% & echo !%str:hello=hlw2%:hlw2=hlw3!
 [ ] rename debug to _debug
