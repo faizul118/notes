@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] Press -> Click
 [ ] add pshell expand in updater
 [ ] what is dynamic restore (web)
 [ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
