@@ -23,14 +23,14 @@ Born on 20241228_1600
 [ ] censor username for 0_debug
 [ ] add signature verification for downloaded files
 [ ] add powershell requirements md + powershell detection DONE
-[ ] add notes for creators web
+[x] add notes for creators web
 [x] add news (announcements)
 [ ] add marketplace warning for mtnxt (probably did already)
 [ ] add license
 [x] add is it safe (context: rmdir, del) to web
 [ ] add full restore detection by comparing file count + placing a temp file
-[ ] add extras about other func in r&o web
-[ ] add dyn restore detection by placing a temp file during restore.
+[x] add extras about other func in r&o web
+[ ] add dyn restore detection by placing a temp file during restore. (later)
 [ ] add do not copy note md (partially done)
 [x] add censored to cache packs as well
 [ ] add av scan for downloaded zip + extract
