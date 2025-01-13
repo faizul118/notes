@@ -1,21 +1,21 @@
 Born on 20241228_1600
 
-[ ] Press -> Click
-[ ] add pshell expand in updater
-[ ] what is dynamic restore (web)
+[x] Press -> Click (scraped)
+[x] add pshell expand in updater
+[x] what is dynamic restore (web)
 [ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
-[ ] try set "str=hello world" & echo %str:hello=hlw% & echo !%str:hello=hlw2%:hlw2=hlw3!
+[x] try set "str=hello world" & echo %str:hello=hlw% & echo !%str:hello=hlw2%:hlw2=hlw3! (didn't work)
 [ ] rename debug to _debug
 [ ] enforce uwa check by checking file presence at end + if fails tell user to use 0_debug
-[ ] use for /f for settings.txt
-[ ] add av scan for jq and m-u too
+[ ] use for /f for settings.txt (later)
+[ ] add av scan for jq and m-u too (scraped)
 [ ] u don need brd for mtjt
 [ ] sign bat (not possible)
 [x] show cmd in auto and manual when dbg on
 [x] perhaps, add updater for material-updater (not doing)
 [ ] mtjct != patched in md + discord newb
 [x] move exe to settings (not doing)
-[ ] killswitch for updates
+[ ] killswitch for updates (scraped)
 [ ] include matjet meme both in web and md
 [ ] follow keepachangelog style
 [ ] clarify basic english requirements and iobit in MD
@@ -25,9 +25,9 @@ Born on 20241228_1600
 [ ] add powershell requirements md + powershell detection DONE
 [ ] add notes for creators web
 [x] add news (announcements)
-[ ] add marketplace warning for mtnxt
+[ ] add marketplace warning for mtnxt (probably did already)
 [ ] add license
-[ ] add is it safe (context: rmdir, del) to web
+[x] add is it safe (context: rmdir, del) to web
 [ ] add full restore detection by comparing file count + placing a temp file
 [ ] add extras about other func in r&o web
 [ ] add dyn restore detection by placing a temp file during restore.
