@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] convert images to webp
 [ ] add downloading update is optional
 [ ] correct typo for succesfully
 [ ] u don need brd for mtjt
