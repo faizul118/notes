@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] 3rd point typo "theshader" guide-for-beginner
 [ ] convert images to webp
 [ ] add downloading update is optional
 [ ] correct typo for succesfully
