@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-
+[ ] add downloading update is optional
 [ ] correct typo for succesfully
 [ ] u don need brd for mtjt
 [ ] rename debug to _debug
