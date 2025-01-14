@@ -1,42 +1,45 @@
 Born on 20241228_1600
 
-[ ] add confirmation for backup rplc
-[x] Press -> Click (scraped)
-[x] add pshell expand in updater
-[x] what is dynamic restore (web)
-[ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
-[x] try set "str=hello world" & echo %str:hello=hlw% & echo !%str:hello=hlw2%:hlw2=hlw3! (didn't work)
-[ ] rename debug to _debug
-[ ] enforce uwa check by checking file presence at end + if fails tell user to use 0_debug
-[ ] use for /f for settings.txt (later)
-[ ] add av scan for jq and m-u too (scraped)
+
 [ ] u don need brd for mtjt
-[ ] sign bat (not possible)
-[x] show cmd in auto and manual when dbg on
-[x] perhaps, add updater for material-updater (not doing)
+[ ] rename debug to _debug
 [ ] mtjct != patched in md + discord newb
-[x] move exe to settings (not doing)
-[ ] killswitch for updates (scraped)
 [ ] include matjet meme both in web and md
 [ ] follow keepachangelog style
 [ ] clarify basic english requirements and iobit in MD
-[ ] change settings to .data (later)
 [ ] censor username for 0_debug
-[ ] add signature verification for downloaded files
+[ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
 [ ] add powershell requirements md + powershell detection DONE
-[x] add notes for creators web
-[x] add news (announcements)
-[ ] add marketplace warning for mtnxt (probably did already)
 [ ] add license
-[x] add is it safe (context: rmdir, del) to web
 [ ] add full restore detection by comparing file count + placing a temp file
-[x] add extras about other func in r&o web
 [ ] add dyn restore detection by placing a temp file during restore. (later)
 [ ] add do not copy note md (partially done)
+[ ] add confirmation for backup rplc
+
+
+[ ] sign bat (not possible)
+[ ] use for /f for settings.txt (later)
+[ ] change settings to .data (later)
+[ ] add signature verification for downloaded files (scraped)
+[ ] killswitch for updates (scraped)
+[ ] add av scan for jq and m-u too (scraped)
+[ ] add av scan for downloaded zip + extract (scraped)
+[ ] try set "str=hello world" & echo %str:hello=hlw% & echo !%str:hello=hlw2%:hlw2=hlw3! (didn't work)
+[ ] Press -> Click (scraped)
+[ ] perhaps, add updater for material-updater (not doing)
+[ ] move exe to settings (not doing)
+
+
+[x] enforce uwa check by checking file presence at end + if fails tell user to use 0_debug
+[x] add marketplace warning for mtnxt
+[x] what is dynamic restore (web)
+[x] show cmd in auto and manual when dbg on
+[x] add pshell expand in updater
+[x] add notes for creators web
+[x] add news (announcements)
+[x] add is it safe (context: rmdir, del) to web
+[x] add extras about other func in r&o web
 [x] add censored to cache packs as well
-[ ] add av scan for downloaded zip + extract
-
-
 [x] test whether call mods\functions.bat :label works (doesn't work)
 [x] see runAs mechanism from winaero take owner
 [x] running to starting...
