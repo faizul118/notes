@@ -1,22 +1,22 @@
 Born on 20241228_1600
 
 [ ] add (raden1) .mtbin fix in clog
-[ ] add se7en congrats in beginner md
-[ ] check if supposed to open is in all files
+[x] add se7en congrats in beginner md
+[x] check if supposed to open is in all files
 [ ] add game mats size and count for debug
 [ ] add backup mats size and count for debug
-[ ] ">" comments guide web
-[ ] 3rd point typo "theshader" guide-for-beginner
+[x] ">" comments guide web
+[x] 3rd point typo "theshader" guide-for-beginner
 [ ] convert images to webp
-[ ] u don need brd for mtjt
-[ ] mtjct != patched in md + discord newb
-[ ] include matjet meme both in web and md
+[x] u don need brd for mtjt
+[x] mtjct != patched in md + discord newb
+[x] include matjet meme both in web and md
 [ ] follow keepachangelog style
 [ ] clarify basic english requirements and iobit in MD
-[ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
+[x] aka Matject cuz it's fast as jet (i know i'm exaggerating)
 [ ] add powershell requirements md
 [ ] add license
-[ ] add do not copy note md (partially done)
+[x] add do not copy note md (partially done)
 
 
 [x] add downloading update is optional
