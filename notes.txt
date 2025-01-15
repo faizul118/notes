@@ -5,23 +5,26 @@ Born on 20241228_1600
 [ ] 3rd point typo "theshader" guide-for-beginner
 [ ] convert images to webp
 [ ] add downloading update is optional
-[ ] correct typo for succesfully
+
 [ ] u don need brd for mtjt
 [ ] rename debug to _debug
 [ ] mtjct != patched in md + discord newb
 [ ] include matjet meme both in web and md
 [ ] follow keepachangelog style
 [ ] clarify basic english requirements and iobit in MD
-[ ] censor username for 0_debug
 [ ] aka Matject cuz it's fast as jet (i know i'm exaggerating)
-[ ] add powershell requirements md + powershell detection DONE
+[ ] add powershell requirements md
 [ ] add license
+[ ] add do not copy note md (partially done)
+
+[x] powershell detection DONE
+[x] correct typo for succesfully
+[x] add confirmation for backup rplc
+
 [ ] add full restore detection by comparing file count + placing a temp file
 [ ] add dyn restore detection by placing a temp file during restore. (later)
-[ ] add do not copy note md (partially done)
-[ ] add confirmation for backup rplc
 
-
+[ ] censor username for 0_debug (scraped)
 [ ] sign bat (not possible)
 [ ] use for /f for settings.txt (later)
 [ ] change settings to .data (later)
