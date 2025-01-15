@@ -4,8 +4,7 @@ Born on 20241228_1600
 [ ] ">" comments guide web
 [ ] 3rd point typo "theshader" guide-for-beginner
 [ ] convert images to webp
-[ ] add downloading update is optional
-
+[x] add downloading update is optional
 [ ] u don need brd for mtjt
 [ ] rename debug to _debug
 [ ] mtjct != patched in md + discord newb
