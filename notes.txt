@@ -1,10 +1,9 @@
 Born on 20241228_1600
 
-[ ] rm mt(bak) folder after full restore
+
 [ ] ">" comments guide web
 [ ] 3rd point typo "theshader" guide-for-beginner
 [ ] convert images to webp
-[x] add downloading update is optional
 [ ] u don need brd for mtjt
 [ ] rename debug to _debug
 [ ] mtjct != patched in md + discord newb
@@ -16,12 +15,17 @@ Born on 20241228_1600
 [ ] add license
 [ ] add do not copy note md (partially done)
 
+
+[x] add downloading update is optional
+[x] rm mt(bak) folder after full restore
 [x] powershell detection DONE
 [x] correct typo for succesfully
 [x] add confirmation for backup rplc
 
+
 [ ] add full restore detection by comparing file count + placing a temp file
 [ ] add dyn restore detection by placing a temp file during restore. (later)
+
 
 [ ] censor username for 0_debug (scraped)
 [ ] sign bat (not possible)
