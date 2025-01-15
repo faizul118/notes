@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] check if supposed to open is in all files
 [ ] add game mats size and count for debug
 [ ] add backup mats size and count for debug
 [ ] ">" comments guide web
