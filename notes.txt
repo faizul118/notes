@@ -1,5 +1,8 @@
 Born on 20241228_1600
 
+[ ] use vbs for iobit
+
+
 [ ] add (raden1) .mtbin fix in clog
 [x] add se7en congrats in beginner md
 [x] check if supposed to open is in all files
