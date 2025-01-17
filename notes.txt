@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] fix !]S typo
+[ ] add deferred detection 
 [ ] use vbs for iobit
 [ ] debug text change %cd% to .. (executing)
 [ ] find what causes system can't find the path specified when doing full restore
