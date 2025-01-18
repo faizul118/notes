@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-[ ] use vbs
+[ ] use vbs for run iobit as admin
 [ ] ninjump
 [ ] emptu folder check for auto method
 [ ] add debug count for mtnxt injectmtrls
