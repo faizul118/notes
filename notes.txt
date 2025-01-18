@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] use vbs
+[ ] ninjump
 [ ] emptu folder check for auto method
 [ ] add debug count for mtnxt injectmtrls
 [ ] fix !]S typo
