@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] emptu folder check for auto method
 [ ] add debug count for mtnxt injectmtrls
 [ ] fix !]S typo
 [ ] add deferred detection 
