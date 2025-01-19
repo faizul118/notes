@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] bye bye
 [ ] use absolute paths for everything
 [ ] crash if variable is not defined for any file operation
 
