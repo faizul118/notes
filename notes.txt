@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] use ./ instead of %cd% everywhere
 [ ] jan 27, hbdbox
 [ ] bye bye
 [ ] use absolute paths for everything
