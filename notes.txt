@@ -1,5 +1,9 @@
 Born on 20241228_1600
 
+[ ] use if exist to check for empty folder (backup)
+[ ] remove unnecessary \ from all paths
+[ ] put .log and .txt next to all settings
+
 [ ] use ./ instead of %cd% everywhere
 [ ] jan 27, hbdbox
 [ ] bye bye
