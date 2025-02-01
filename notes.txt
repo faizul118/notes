@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] see if running from WinRAR
 [ ] use if exist to check for empty folder (backup)
 [ ] remove unnecessary \ from all paths
 [ ] put .log and .txt next to all settings
