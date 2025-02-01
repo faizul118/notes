@@ -1,5 +1,9 @@
 Born on 20241228_1600
 
+delete rstrlist if backups missing
+in matject.bat do something like set /p for self hash and equ stuff
+then store hash in variables.bat
+
 [ ] add disable module verification
 [ ] remove %random% from uwinap
 [ ] mkdir after rmdir tmp
