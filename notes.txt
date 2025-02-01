@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] mkdir after rmdir tmp
 [ ] see if running from WinRAR
 [ ] use if exist to check for empty folder (backup)
 [ ] remove unnecessary \ from all paths
