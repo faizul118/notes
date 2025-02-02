@@ -31,8 +31,8 @@ then store hash in variables.bat
 [ ] fix !]S typo
 [ ] add deferred detection 
 [ ] use vbs for iobit
-[ ] debug text change %cd% to .. (executing)
-[ ] find what causes system can't find the path specified when doing full restore
+[x] debug text change %cd% to .. (executing)
+[x] find what causes system can't find the path specified when doing full restore (solved) v3.5.1
 
 [ ] add (raden1) .mtbin fix in clog
 [x] add se7en congrats in beginner md
