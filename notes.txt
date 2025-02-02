@@ -4,9 +4,9 @@ delete rstrlist if backups missing
 in matject.bat do something like set /p for self hash and equ stuff
 then store hash in variables.bat
 
-read only for modules folder
-enable custom path tip for getting details
-
+[ ] read only for modules folder
+[ ] enable custom path tip for getting details
+[ ] add mats tree for debug
 
 [ ] add disable module verification
 [ ] remove %random% from uwinap
