@@ -1,5 +1,9 @@
 Born on 20241228_1600
 
+move instead to left of msg
+makealicense
+warning about unofficial source
+
 [ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
 
 delete rstrlist if backups missing
