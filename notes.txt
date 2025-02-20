@@ -10,7 +10,7 @@ Born on 20241228_1600
 [ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
 
 [x] delete rstrlist if backups missing
-[ ] in matject.bat do something like set /p for self hash and equ stuff
+[ ] in matject.bat do something like set /p for self hash and equ stuff (bad idea)
 [ ] then store hash in variables.bat (bad idea)
 
 [x] read only for modules folder
