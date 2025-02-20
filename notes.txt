@@ -1,17 +1,17 @@
 Born on 20241228_1600
 
-Set logo 55px in md
-Set #-known-issues in md
-hello
-move instead to left of msg
-makealicense
-warning about unofficial source
+[x] Set logo 55px in md
+[x] Set #-known-issues in md
+
+[ ] move instead to left of msg (scraped)
+[ ] makealicense ok ok doing....
+[x] warning about unofficial source
 
 [ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
 
-delete rstrlist if backups missing
-in matject.bat do something like set /p for self hash and equ stuff
-then store hash in variables.bat
+[x] delete rstrlist if backups missing
+[ ] in matject.bat do something like set /p for self hash and equ stuff
+[ ] then store hash in variables.bat (bad idea)
 
 [x] read only for modules folder
 [x] enable custom path tip for getting details
