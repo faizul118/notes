@@ -13,35 +13,35 @@ delete rstrlist if backups missing
 in matject.bat do something like set /p for self hash and equ stuff
 then store hash in variables.bat
 
-[ ] read only for modules folder
-[ ] enable custom path tip for getting details
-[ ] add mats tree for debug
+[x] read only for modules folder
+[x] enable custom path tip for getting details
+[x] add mats tree for debug
 
-[ ] add disable module verification
-[ ] remove %random% from uwinap
+[x] add disable module verification
+[x] remove %random% from uwinap
 [ ] mkdir after rmdir tmp
-[ ] see if running from WinRAR
-[ ] use if exist to check for empty folder (backup)
-[ ] remove unnecessary \ from all paths
+[x] see if running from WinRAR
+[x] use if exist to check for empty folder (backup)
+[x] remove unnecessary \ from all paths
 [ ] put .log and .txt next to all settings
 
-[ ] use ./ instead of %cd% everywhere
-[ ] jan 27, hbdbox
-[ ] bye bye
-[ ] use absolute paths for everything
-[ ] crash if variable is not defined for any file operation
+[x] use ./ instead of %cd% everywhere
+[x] jan 27, hbdbox
+[x] bye bye
+[x] use absolute paths for everything
+[x] crash if variable is not defined for any file operation (partially done)
 
-[ ] use vbs for run iobit as admin
+[ ] use vbs for run iobit as admin (not a good idea)
 [ ] ninjump
 [ ] emptu folder check for auto method
-[ ] add debug count for mtnxt injectmtrls
-[ ] fix !]S typo
+[x] add debug count for mtnxt injectmtrls
+[x] fix !]S typo
 [ ] add deferred detection 
 [ ] use vbs for iobit
 [x] debug text change %cd% to .. (executing)
 [x] find what causes system can't find the path specified when doing full restore (solved) v3.5.1
 
-[ ] add (raden1) .mtbin fix in clog
+[x] add (raden1) .mtbin fix in clog
 [x] add se7en congrats in beginner md
 [x] check if supposed to open is in all files
 [ ] add game mats size and count for debug
