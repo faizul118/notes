@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] do the raden1 mtbin fix for mtnxt
+
 [x] Set logo 55px in md
 [x] Set #-known-issues in md
 
