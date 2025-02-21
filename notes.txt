@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] add jsonc warn in mtnxt
+[ ] return to main if confirmation empty mtnxt
 [ ] add highlighted faq section in readme w/ matject doesn't need to be opened every time
 
 [ ] do the raden1 mtbin fix for mtnxt
