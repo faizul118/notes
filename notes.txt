@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] minecraft preview is also supported in features readme md
 [ ] add the missing stuff for uwapps admin check
 [ ] settings L246 (v3.5.2) update gamedata variable
 
