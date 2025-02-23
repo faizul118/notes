@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+
+[ ] use where /q instead of nul
 [ ] add BEL for shader incompatible 
 [ ] add "some" in antivirus of known issues md 
 [ ] minecraft preview is also supported in features readme md
