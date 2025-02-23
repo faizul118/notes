@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add @ in all lines of taskKillLoop and >nul 2>&1 for taskkill command
 [ ] in restoreMaterials %1 neq murgi --- change murgi to placebo3
 [ ] use where /q instead of nul
 [ ] add BEL for shader incompatible 
