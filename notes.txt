@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add how to remove shaders next to how to use md
 [ ] use start for msg command mtnxt
 [ ] add @ in all lines of taskKillLoop and >nul 2>&1 for taskkill command
 [ ] in restoreMaterials %1 neq murgi --- change murgi to placebo3
