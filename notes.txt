@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add if you're seeing invis blocks enable that and try again in inject succeed 
 [ ] material-updater to fix invis blocks (Add "in matject settings") md
 [ ] fix runAsAdmin.txt not getting deleted when pressing X in debug
 [ ] add tip, deactivating shader pack won't remove shaders
