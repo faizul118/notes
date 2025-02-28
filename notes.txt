@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] create backups folder if it doesn't exist for replace current backup
+
 :INIT
 @echo off
 for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Columns"') do set "width=%%a"
