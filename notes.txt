@@ -30,7 +30,7 @@ echo Terminal Height: %height%
 [ ] add "some" in antivirus of known issues md 
 [ ] minecraft preview is also supported in features readme md
 [ ] add the missing stuff for uwapps admin check
-[ ] settings L246 (v3.5.2) update gamedata variable
+[x] settings L246 (v3.5.2) update gamedata variable
 
 [x] add jsonc warn in mtnxt
 [ ] return to main if confirmation empty mtnxt (forgor)
