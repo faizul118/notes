@@ -1,5 +1,9 @@
 Born on 20241228_1600
 
+[ ] candid meaning
+[ ] check if attrib -R is required while turning off mtupdater
+[ ] add _helper in name of vbs
+
 [ ] add materials folder not empty for auto method
 [ ] add filename and credits in all files
 [ ] split brackets in newline custom iobit path
