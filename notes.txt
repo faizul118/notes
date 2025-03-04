@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] CENSORED to REDACTED
 [ ] candid meaning
 [ ] check if attrib -R is required while turning off mtupdater
 [ ] add _helper in name of vbs
