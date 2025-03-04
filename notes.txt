@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] Add 'loading packs...' in the step of auto if multiples are found
 [ ] CENSORED to REDACTED
 [ ] candid meaning
 [ ] check if attrib -R is required while turning off mtupdater
