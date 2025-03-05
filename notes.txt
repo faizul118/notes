@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] follow on screen instructions md
 [ ] add which folder needs to be selected for iobit unlocker
 [ ] remove shader -> shader removal
 [ ] 'requires' -> 'will require'
