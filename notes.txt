@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add which folder needs to be selected for iobit unlocker
 [ ] remove shader -> shader removal
 [ ] 'requires' -> 'will require'
 [ ] Add 'loading packs...' in the step of auto if multiples are found
