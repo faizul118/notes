@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+
+[ ] first run: disabling resource pack won't remove shader msg
 [ ] fix ' in path problem for powershell commands
 [ ] follow on screen instructions md
 [ ] add which folder needs to be selected for iobit unlocker
