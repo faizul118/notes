@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-
+[ ] check if 'where' exists
 [ ] first run: disabling resource pack won't remove shader msg
 [ ] fix ' in path problem for powershell commands
 [ ] follow on screen instructions md
