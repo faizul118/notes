@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add endlocal to all cmd /k
 [ ] check if 'where' exists
 [ ] first run: disabling resource pack won't remove shader msg
 [ ] fix ' in path problem for powershell commands
