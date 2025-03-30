@@ -22,7 +22,7 @@ Born on 20241228_1600
 [ ] add filename and credits in all files
 [ ] split brackets in newline custom iobit path
 [ ] uwa: change requires admin perm to, it will ask for admin perm on next step
-[ ] add veka0 and mcbegamer credit in respective files
+[x] add veka0 and mcbegamer credit in respective files
 [ ] create backups folder if it doesn't exist for replace current backup
 
 :INIT
