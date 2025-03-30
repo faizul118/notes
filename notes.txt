@@ -1,5 +1,8 @@
 Born on 20241228_1600
 
+[x] add targetVersion next to material-updater mt settings
+[x] add version confirmation for mtupd
+[x] add ui for mtupd settings
 [ ] remove color code symbols
 [ ] add endlocal to all cmd /k
 [ ] check if 'where' exists
