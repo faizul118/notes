@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add (buggy) for full restore
 [ ] set all where commands to /q
 [x] add targetVersion next to material-updater mt settings
 [x] add version confirmation for mtupd
