@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] Make auto not launch if MATERIALS folder is not empty
 [ ] iobit unlocker may crash on certain devices. warn
 [ ] rename v1.21.20+ to v1.21.20 or above (mu)
 [ ] add (buggy) for full restore
