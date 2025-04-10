@@ -23,12 +23,12 @@ Born on 20241228_1600
 [x] add version confirmation for mtupd
 [x] add ui for mtupd settings
 [ ] remove color code symbols
-[ ] add endlocal to all cmd /k
-[ ] check if 'where' exists
-[ ] first run: disabling resource pack won't remove shader msg
+[x] add endlocal to all cmd /k
+[ ] check if 'where' exists (useless as i will have to rewrite all where commands for that)
+[x] first run: disabling resource pack won't remove shader msg
 [ ] fix ' in path problem for powershell commands
-[ ] follow on screen instructions md
-[ ] add which folder needs to be selected for iobit unlocker
+[x] follow on screen instructions md
+[x] add which folder needs to be selected for iobit unlocker (already done)
 [x] remove shader -> shader removal
 [x] 'requires' -> 'will require'
 [x] Add 'loading packs...' in the step of auto if multiples are found (used Loading... instead)
