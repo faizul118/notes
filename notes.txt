@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] since for loops ignore commas, make necessary changes to no longer deal with ,
 [ ] generate DO-NOT-EDIT file in .settings
 [ ] getting minecraft path manually (if custom fails) (Trying to get Minecraft path automatically)
 [ ] throw error and exit if default data path doesn't exist
