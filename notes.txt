@@ -30,10 +30,10 @@ Born on 20241228_1600
 [ ] follow on screen instructions md
 [ ] add which folder needs to be selected for iobit unlocker
 [ ] remove shader -> shader removal
-[ ] 'requires' -> 'will require'
+[x] 'requires' -> 'will require'
 [ ] Add 'loading packs...' in the step of auto if multiples are found
-[ ] CENSORED to REDACTED
-[ ] candid meaning
+[x] CENSORED to REDACTED
+[x] candid meaning
 [ ] check if attrib -R is required while turning off mtupdater
 [ ] add _helper in name of vbs
 
