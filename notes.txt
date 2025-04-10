@@ -29,7 +29,7 @@ Born on 20241228_1600
 [ ] fix ' in path problem for powershell commands
 [ ] follow on screen instructions md
 [ ] add which folder needs to be selected for iobit unlocker
-[ ] remove shader -> shader removal
+[x] remove shader -> shader removal
 [x] 'requires' -> 'will require'
 [x] Add 'loading packs...' in the step of auto if multiples are found (used Loading... instead)
 [x] CENSORED to REDACTED
