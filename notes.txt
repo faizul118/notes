@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] do cls after old backup found and mcloc not found
 [ ] add "or write /skip" for /skip
 [ ] Make auto not launch if MATERIALS folder is not empty
 [ ] iobit unlocker may crash on certain devices. warn
