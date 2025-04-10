@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] throw error and exit if default data path doesn't exist
 [ ] rename partial to dynamic in restoreMaterials
 [ ] use %1 for restoreMaterials (duplicate ig)
 [ ] store more verbose logs for autoject, restore, inject etc
