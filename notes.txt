@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] rename partial to dynamic in restoreMaterials
+[ ] use %1 for restoreMaterials (duplicate ig)
 [ ] store more verbose logs for autoject, restore, inject etc
 [ ] add material-updater: auto detected version msg
 [ ] add [RECOMMENDED] and full restore buggy titles to the rstr screen
