@@ -31,10 +31,10 @@ Born on 20241228_1600
 [ ] add which folder needs to be selected for iobit unlocker
 [ ] remove shader -> shader removal
 [x] 'requires' -> 'will require'
-[ ] Add 'loading packs...' in the step of auto if multiples are found
+[x] Add 'loading packs...' in the step of auto if multiples are found (used Loading... instead)
 [x] CENSORED to REDACTED
 [x] candid meaning
-[ ] check if attrib -R is required while turning off mtupdater
+[x] check if attrib -R is required while turning off mtupdater (yes, used del /q /s /f instead)
 [ ] add _helper in name of vbs
 
 [ ] add materials folder not empty for auto method
