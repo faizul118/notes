@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] use iobit copy and copy /d instead of moving from tmp for full restore
 [ ] add corresponding key msg for every choice /c
 [ ] use %1 for variables also (release/preview)
 [ ] use /F force arg for del commands so attrib -R is not needed
