@@ -5,9 +5,9 @@ Born on 20241228_1600
 [ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
 [ ] add corresponding key msg for every choice /c (not necessary)
 [ ] use %1 for variables also (release/preview) (later)
-[ ] use /F force arg for del commands so attrib -R is not needed
-[ ] do cls, and goto properly for restore1 and restore2
-[ ] since for loops ignore commas, make necessary changes to no longer deal with ,
+[x] use /F force arg for del commands so attrib -R is not needed (did where applicable)
+[x] do cls, and goto properly for restore1 and restore2
+[x] since for loops ignore commas, make necessary changes to no longer deal with ,
 [ ] generate DO-NOT-EDIT file in .settings
 [ ] getting minecraft path manually (if custom fails) (Trying to get Minecraft path automatically)
 [ ] throw error and exit if default data path doesn't exist
