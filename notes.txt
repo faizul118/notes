@@ -2,8 +2,8 @@ Born on 20241228_1600
 
 [x] Have a nice day. -> Have a nice day!
 [x] 0_debug write(able) -> writable, 1,2,3 -> 1_ 2_, 3_
-[ ] use iobit copy and copy /d instead of moving from tmp for full restore
-[ ] add corresponding key msg for every choice /c
+[ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
+[ ] add corresponding key msg for every choice /c (not necessary)
 [ ] use %1 for variables also (release/preview)
 [ ] use /F force arg for del commands so attrib -R is not needed
 [ ] do cls, and goto properly for restore1 and restore2
