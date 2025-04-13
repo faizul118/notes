@@ -4,7 +4,7 @@ Born on 20241228_1600
 [x] 0_debug write(able) -> writable, 1,2,3 -> 1_ 2_, 3_
 [ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
 [ ] add corresponding key msg for every choice /c (not necessary)
-[ ] use %1 for variables also (release/preview)
+[ ] use %1 for variables also (release/preview) (later)
 [ ] use /F force arg for del commands so attrib -R is not needed
 [ ] do cls, and goto properly for restore1 and restore2
 [ ] since for loops ignore commas, make necessary changes to no longer deal with ,
