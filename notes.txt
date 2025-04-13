@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] 0_debug write(able) -> writable, 1,2,3 -> 1_ 2_, 3_
 [ ] use iobit copy and copy /d instead of moving from tmp for full restore
 [ ] add corresponding key msg for every choice /c
 [ ] use %1 for variables also (release/preview)
