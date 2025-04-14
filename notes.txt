@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-[ ] del /q /s -> del /q (for single files)
+[x] del /q /s -> del /q (for single files)
 [x] Have a nice day. -> Have a nice day!
 [x] 0_debug write(able) -> writable, 1,2,3 -> 1_ 2_, 3_
 [ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
