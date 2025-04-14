@@ -35,7 +35,7 @@ Born on 20241228_1600
 [x] follow on screen instructions md
 [x] add which folder needs to be selected for iobit unlocker (already done)
 [x] remove shader -> shader removal
-[x] 'requires' -> 'will require'
+[x] 'requires' -> 'will require' -> will request admin perm***
 [x] Add 'loading packs...' in the step of auto if multiples are found (used Loading... instead)
 [x] CENSORED to REDACTED
 [x] candid meaning
