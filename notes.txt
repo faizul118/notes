@@ -1,7 +1,7 @@
 Born on 20241228_1600
 
-[ ] pass chcp for pwsh calls
-[ ] from mtnxt main and syncMaterials see what variables are being utilized from restoreMaterials calls
+[ ] pass chcp for pwsh calls (no need)
+[x] from mtnxt main and syncMaterials see what variables are being utilized from restoreMaterials calls (hopefully all variables are loaded)
 [x] del /q /s -> del /q (for single files)
 [x] Have a nice day. -> Have a nice day!
 [x] 0_debug write(able) -> writable, 1,2,3 -> 1_ 2_, 3_
@@ -12,8 +12,8 @@ Born on 20241228_1600
 [x] do cls, and goto properly for restore1 and restore2
 [x] since for loops ignore commas, make necessary changes to no longer deal with ,
 [x] generate DO-NOT-EDIT file in .settings
-[ ] getting minecraft path manually (if custom fails) (Trying to get Minecraft path automatically)
-[ ] throw error and exit if default data path doesn't exist
+[x] getting minecraft path manually (if custom fails) (Trying to get Minecraft path automatically)
+[x] throw error and exit if default data path doesn't exist
 [ ] rename partial to dynamic in restoreMaterials
 [ ] use %1 for restoreMaterials (duplicate ig)
 [ ] store more verbose logs for autoject, restore, inject etc
