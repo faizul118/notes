@@ -14,26 +14,26 @@ Born on 20241228_1600
 [x] generate DO-NOT-EDIT file in .settings
 [x] getting minecraft path manually (if custom fails) (Trying to get Minecraft path automatically)
 [x] throw error and exit if default data path doesn't exist
-[ ] rename partial to dynamic in restoreMaterials
-[ ] use %1 for restoreMaterials (duplicate ig)
+[x] rename partial to dynamic in restoreMaterials
+[ ] use %1 for restoreMaterials (duplicate ig) (too lazy)
 [ ] store more verbose logs for autoject, restore, inject etc
-[ ] add material-updater: auto detected version msg
-[ ] add [RECOMMENDED] and full restore buggy titles to the rstr screen
-[ ] do cls after old backup found and mcloc not found
-[ ] add "or write /skip" for /skip
-[ ] Make auto not launch if MATERIALS folder is not empty
-[ ] iobit unlocker may crash on certain devices. warn
-[ ] rename v1.21.20+ to v1.21.20 or above (mu)
-[ ] add (buggy) for full restore
-[ ] set all where commands to /q
+[x] add material-updater: auto detected version msg
+[x] add [RECOMMENDED] and full restore buggy titles to the rstr screen
+[x] do cls after old backup found and mcloc not found (done ig)
+[x] add "or write /skip" for /skip
+[x] Make auto not launch if MATERIALS folder is not empty (did for manual as well)
+[x] iobit unlocker may crash on certain devices. warn
+[x] rename v1.21.20+ to v1.21.20 or above (mu)
+[x] add (buggy) for full restore (added EXPERIMENTAL)
+[ ] set all where commands to /q (didn't do as it's buggy)
 [x] add targetVersion next to material-updater mt settings
 [x] add version confirmation for mtupd
 [x] add ui for mtupd settings
-[ ] remove color code symbols
+[ ] remove color code symbols (not doing)
 [x] add endlocal to all cmd /k
 [ ] check if 'where' exists (useless as i will have to rewrite all where commands for that)
 [x] first run: disabling resource pack won't remove shader msg
-[ ] fix ' in path problem for powershell commands
+[x] fix ' in path problem for powershell commands
 [x] follow on screen instructions md
 [x] add which folder needs to be selected for iobit unlocker (already done)
 [x] remove shader -> shader removal
@@ -42,9 +42,9 @@ Born on 20241228_1600
 [x] CENSORED to REDACTED
 [x] candid meaning
 [x] check if attrib -R is required while turning off mtupdater (yes, used del /q /s /f instead)
-[ ] add _helper in name of vbs
+[x] add _helper in name of vbs
 
-[ ] add materials folder not empty for auto method
+[x] add materials folder not empty for auto method (done already)
 [ ] add filename and credits in all files
 [ ] split brackets in newline custom iobit path
 [ ] uwa: change requires admin perm to, it will ask for admin perm on next step
