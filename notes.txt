@@ -45,11 +45,11 @@ Born on 20241228_1600
 [x] add _helper in name of vbs
 
 [x] add materials folder not empty for auto method (done already)
-[ ] add filename and credits in all files
-[ ] split brackets in newline custom iobit path
-[ ] uwa: change requires admin perm to, it will ask for admin perm on next step
+[x] add filename and credits in all files
+[x] split brackets in newline custom iobit path
+[x] uwa: change requires admin perm to, it will ask for admin perm on next step (set to "will require")
 [x] add veka0 and mcbegamer credit in respective files
-[ ] create backups folder if it doesn't exist for replace current backup
+[x] create backups folder if it doesn't exist for replace current backup (already done)
 
 :INIT
 @echo off
@@ -65,20 +65,21 @@ echo Terminal Height: %height%
 :END
 
 
-[ ] add if you're seeing invis blocks enable that and try again in inject succeed 
-[ ] material-updater to fix invis blocks (Add "in matject settings") md
-[ ] fix runAsAdmin.txt not getting deleted when pressing X in debug
-[ ] add tip, deactivating shader pack won't remove shaders
-[ ] add counter mismatch even if debug mode is off 
+[x] add if you're seeing invis blocks enable that and try again in inject succeed 
+[ ] material-updater to fix invis blocks (Add "in matject settings") md (###)
+[x] fix runAsAdmin.txt not getting deleted when pressing X in debug
+[x] add tip, deactivating shader pack won't remove shaders (done)
+[x] add counter mismatch even if debug mode is off 
 [ ] add how to remove shaders next to how to use md
-[ ] use start for msg command mtnxt
-[ ] add @ in all lines of taskKillLoop and >nul 2>&1 for taskkill command
-[ ] in restoreMaterials %1 neq murgi --- change murgi to placebo3
-[ ] use where /q instead of nul
-[ ] add BEL for shader incompatible 
+[x] use start for msg command mtnxt
+[ ] add @ in all lines of taskKillLoop...
+[x] ...and >nul 2>&1 for taskkill command
+[x] in restoreMaterials %1 neq murgi --- change murgi to placebo3
+[ ] use where /q instead of nul (too buggy)
+[x] add BEL for shader incompatible 
 [ ] add "some" in antivirus of known issues md 
 [ ] minecraft preview is also supported in features readme md
-[ ] add the missing stuff for uwapps admin check
+[ ] add the missing stuff for uwapps admin check (???) (maybe fltmc, openfile, wmic which i did already???)
 [x] settings L246 (v3.5.2) update gamedata variable
 
 [x] add jsonc warn in mtnxt
@@ -91,7 +92,7 @@ echo Terminal Height: %height%
 [x] Set #-known-issues in md
 
 [ ] move instead to left of msg (scraped)
-[ ] makealicense ok ok doing....
+[x] makealicense ok ok doing....
 [x] warning about unofficial source
 
 [ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
@@ -119,31 +120,31 @@ echo Terminal Height: %height%
 [x] crash if variable is not defined for any file operation (partially done)
 
 [ ] use vbs for run iobit as admin (not a good idea)
-[ ] ninjump
-[ ] emptu folder check for auto method
+[x] ninjump
+[x] emptu folder check for auto method (done already)
 [x] add debug count for mtnxt injectmtrls
 [x] fix !]S typo
 [ ] add deferred detection 
-[ ] use vbs for iobit
+[ ] use vbs for iobit (bad idea
 [x] debug text change %cd% to .. (executing)
 [x] find what causes system can't find the path specified when doing full restore (solved) v3.5.1
 
 [x] add (raden1) .mtbin fix in clog
 [x] add se7en congrats in beginner md
 [x] check if supposed to open is in all files
-[ ] add game mats size and count for debug
-[ ] add backup mats size and count for debug
+[x] add game mats size and count for debug
+[x] add backup mats size and count for debug
 [x] ">" comments guide web
 [x] 3rd point typo "theshader" guide-for-beginner
 [ ] convert images to webp
 [x] u don need brd for mtjt
 [x] mtjct != patched in md + discord newb
 [x] include matjet meme both in web and md
-[ ] follow keepachangelog style
+[ ] follow keepachangelog style (scraped)
 [ ] clarify basic english requirements and iobit in MD
 [x] aka Matject cuz it's fast as jet (i know i'm exaggerating)
 [ ] add powershell requirements md
-[ ] add license
+[x] add license
 [x] add do not copy note md (partially done)
 
 
@@ -154,8 +155,8 @@ echo Terminal Height: %height%
 [x] add confirmation for backup rplc
 
 
-[ ] add full restore detection by comparing file count + placing a temp file
-[ ] add dyn restore detection by placing a temp file during restore. (later)
+[x] add full restore detection by comparing file count + placing a temp file
+[x] add dyn restore detection by placing a temp file during restore. (later)
 
 
 [ ] censor username for 0_debug (scraped)
