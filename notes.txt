@@ -71,14 +71,14 @@ echo Terminal Height: %height%
 [x] fix runAsAdmin.txt not getting deleted when pressing X in debug
 [x] add tip, deactivating shader pack won't remove shaders (done)
 [x] add counter mismatch even if debug mode is off 
-[ ] add how to remove shaders next to how to use md
+[x] add how to remove shaders next to how to use md
 [x] use start for msg command mtnxt
 [ ] add @ in all lines of taskKillLoop...
 [x] ...and >nul 2>&1 for taskkill command
 [x] in restoreMaterials %1 neq murgi --- change murgi to placebo3
 [ ] use where /q instead of nul (too buggy)
 [x] add BEL for shader incompatible 
-[ ] add "some" in antivirus of known issues md 
+[x] add "some" in antivirus of known issues md 
 [ ] minecraft preview is also supported in features readme md
 [ ] add the missing stuff for uwapps admin check (???) (maybe fltmc, openfile, wmic which i did already???)
 [x] settings L246 (v3.5.2) update gamedata variable
