@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] add the ability to stop it from exiting when just sync and exit is enabled.
 [ ] for curl commands: add echo. under
 [ ] pass chcp for pwsh calls (no need)
 [x] from mtnxt main and syncMaterials see what variables are being utilized from restoreMaterials calls (hopefully all variables are loaded)
