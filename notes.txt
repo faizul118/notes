@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] delete tmp folder after full restore :completed
 [ ] add the ability to stop it from exiting when just sync and exit is enabled.
 [ ] for curl commands: add echo. under
 [ ] pass chcp for pwsh calls (no need)
