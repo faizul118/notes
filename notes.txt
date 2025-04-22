@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+in various files like autoject injectmtrls, instead of doing two if defined debug for executing...this&that command&echo. do executing...this&echo.&that command, so one "if defined debug" controls two
 [ ] use msg to inform user that injection didn;t go well
 [ ] delete tmp folder after full restore :completed
 [ ] add the ability to stop it from exiting when just sync and exit is enabled.
