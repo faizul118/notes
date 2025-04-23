@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] don't scan development packs (idea: Scan only: Both // Normal // development)
 [ ] show applied pack on matjectnext title
 [ ] don't launch auto/manual when matjectnext .log exist
 [ ] in various files like autoject injectmtrls, instead of doing two if defined debug for executing...this&that command&echo. do executing...this&echo.&that command, so one "if defined debug" controls two
