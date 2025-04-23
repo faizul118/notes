@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] copy command copies with /b for single files even when it's not specified. even tho put /b in all copy commands (source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy)
 [ ] sync again even if both packs are same mtnxt settings
 [ ] don't scan development packs (idea: Scan only: Both // Normal // development)
 [ ] show applied pack on matjectnext title
