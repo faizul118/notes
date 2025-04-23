@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] sync again even if both packs are same mtnxt settings
 [ ] don't scan development packs (idea: Scan only: Both // Normal // development)
 [ ] show applied pack on matjectnext title
 [ ] don't launch auto/manual when matjectnext .log exist
