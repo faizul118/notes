@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] set all attrib to have >nul to fix the issue of color codes
 [ ] add >nul for every possible command to avoid colored symbols from showing up (starting with splash screen text)
 [ ] copy command copies with /b for single files even when it's not specified. even tho put /b in all copy commands (source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy)
 [ ] sync again even if both packs are same mtnxt settings
