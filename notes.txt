@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] for each injection steps show message asking user to close the iobit unlocker popup
 [ ] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
 [ ] set all attrib to have >nul to fix the issue of color codes
 [ ] add >nul for every possible command to avoid colored symbols from showing up (starting with splash screen text)
