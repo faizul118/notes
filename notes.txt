@@ -1,5 +1,8 @@
 Born on 20241228_1600
 
+[ ] make matjectnext default method
+[ ] see if debugMode text file is looked for in injectMtrls and rstrMtrls, also see if debugMode is passed to those files
+[ ] move more info to debug mode mtnxt
 [ ] change full/dynamic in mtnxt warning to dynamic/full
 [ ] message, you just need iobit unlocker to be installed. no need to do anything else.
 [ ] for each injection steps show message asking user to close the iobit unlocker popup
