@@ -107,9 +107,9 @@ Born on 20241228_1600
 
 
 
-[ ] add >nul for every possible command to avoid colored symbols from showing up (starting with splash screen text)
-[ ] add @ in all lines of taskKillLoop...
-[ ] add corresponding key msg for every choice /c (not necessary)
+[x] add >nul for every possible command to avoid colored symbols from showing up (starting with splash screen text) (alr fixed for splash, maybe fixed for rstrMtrls)
+[x] add @ in all lines of taskKillLoop... (cleaned it instead)
+[ ] add corresponding key msg for every choice /c (not necessary, scraped)
 [ ] add deferred detection
 [ ] add highlighted faq section in readme w/ matject doesn't need to be opened every time
 [ ] add powershell requirements md
