@@ -70,20 +70,6 @@ Born on 20241228_1600
 [x] add veka0 and mcbegamer credit in respective files
 [x] create backups folder if it doesn't exist for replace current backup (already done)
 
-:INIT
-@echo off
-for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Columns"') do set "width=%%a"
-for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Lines"') do set "height=%%a"
-
-rem Trim spaces
-set width=%width: =%
-set height=%height: =%
-
-echo Terminal Width: %width%
-echo Terminal Height: %height%
-:END
-
-
 [x] add if you're seeing invis blocks enable that and try again in inject succeed 
 [ ] material-updater to fix invis blocks (Add "in matject settings") md (###)
 [x] fix runAsAdmin.txt not getting deleted when pressing X in debug
@@ -255,6 +241,19 @@ echo Terminal Height: %height%
 [x] use pkill to close iobit prompt
 [x] use start with cmd /k + args
 
+
+:INIT
+@echo off
+for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Columns"') do set "width=%%a"
+for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Lines"') do set "height=%%a"
+
+rem Trim spaces
+set width=%width: =%
+set height=%height: =%
+
+echo Terminal Width: %width%
+echo Terminal Height: %height%
+:END
 
 test commit
 test commit 2
