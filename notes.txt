@@ -1,156 +1,98 @@
 Born on 20241228_1600
 
-[ ] make matjectnext default method
-[ ] see if debugMode text file is looked for in injectMtrls and rstrMtrls, also see if debugMode is passed to those files
-[ ] move more info to debug mode mtnxt
-[ ] change full/dynamic in mtnxt warning to dynamic/full
-[ ] message, you just need iobit unlocker to be installed. no need to do anything else.
-[ ] for each injection steps show message asking user to close the iobit unlocker popup
-[ ] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
-[ ] set all attrib to have >nul to fix the issue of color codes
-[ ] add >nul for every possible command to avoid colored symbols from showing up (starting with splash screen text)
-[ ] copy command copies with /b for single files even when it's not specified. even tho put /b in all copy commands (source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy)
-[ ] sync again even if both packs are same mtnxt settings
-[ ] don't scan development packs (idea: Scan only: Both // Normal // development)
-[ ] show applied pack on matjectnext title
-[ ] don't launch auto/manual when matjectnext .log exist
-[ ] in various files like autoject injectmtrls, instead of doing two if defined debug for executing...this&that command&echo. do executing...this&echo.&that command, so one "if defined debug" controls two
-[ ] use msg to inform user that injection didn;t go well
-[ ] delete tmp folder after full restore :completed
-[ ] add the ability to stop it from exiting when just sync and exit is enabled.
-[ ] for curl commands: add echo. under
-[ ] pass chcp for pwsh calls (no need)
-[x] from mtnxt main and syncMaterials see what variables are being utilized from restoreMaterials calls (hopefully all variables are loaded)
-[x] del /q /s -> del /q (for single files)
-[x] Have a nice day. -> Have a nice day!
+
+[x] ">" comments guide web
+[x] 'requires' -> 'will require' -> will request admin perm***
+[x] ...and >nul 2>&1 for taskkill command
 [x] 0_debug write(able) -> writable, 1,2,3 -> 1_ 2_, 3_
-[ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
-[ ] add corresponding key msg for every choice /c (not necessary)
-[ ] use %1 for variables also (release/preview) (later)
-[x] use /F force arg for del commands so attrib -R is not needed (did where applicable)
+[x] 3rd point typo "theshader" guide-for-beginner
+[x] add "or write /skip" for /skip
+[x] add "some" in antivirus of known issues md
+[x] Add 'loading packs...' in the step of auto if multiples are found (used Loading... instead)
+[x] add (buggy) for full restore (added EXPERIMENTAL)
+[x] add (raden1) .mtbin fix in clog
+[x] add backup mats size and count for debug
+[x] add BEL for shader incompatible
+[x] add counter mismatch even if debug mode is off
+[x] add debug count for mtnxt injectmtrls
+[x] add disable module verification
+[x] add do not copy note md (partially done)
+[x] add endlocal to all cmd /k
+[x] add filename and credits in all files
+[x] add game mats size and count for debug
+[x] add how to remove shaders next to how to use md
+[x] add if you're seeing invis blocks enable that and try again in inject succeed
+[x] add jsonc warn in mtnxt
+[x] add license
+[x] add material-updater: auto detected version msg
+[x] add materials folder not empty for auto method (done already)
+[x] add mats tree for debug
+[x] add se7en congrats in beginner md
+[x] add targetVersion next to material-updater mt settings
+[x] add tip, deactivating shader pack won't remove shaders (done)
+[x] add ui for mtupd settings
+[x] add veka0 and mcbegamer credit in respective files
+[x] add version confirmation for mtupd
+[x] add which folder needs to be selected for iobit unlocker (already done)
+[x] add [RECOMMENDED] and full restore buggy titles to the rstr screen
+[x] add _helper in name of vbs
+[x] aka Matject cuz it's fast as jet (i know i'm exaggerating)
+[x] bye bye
+[x] candid meaning
+[x] CENSORED to REDACTED
+[x] check if attrib -R is required while turning off mtupdater (yes, used del /q /s /f instead)
+[x] check if supposed to open is in all files
+[x] crash if variable is not defined for any file operation (partially done)
+[x] create backups folder if it doesn't exist for replace current backup (already done)
+[x] debug text change %cd% to .. (executing)
+[x] delete rstrlist if backups missing
+[x] del /q /s -> del /q (for single files)
 [x] do cls, and goto properly for restore1 and restore2
-[x] since for loops ignore commas, make necessary changes to no longer deal with ,
+[x] do cls after old backup found and mcloc not found (done ig)
+[x] do the raden1 mtbin fix for mtnxt
+[x] emptu folder check for auto method (done already)
+[x] enable custom path tip for getting details
+[x] find what causes system can't find the path specified when doing full restore (solved) v3.5.1
+[x] first run: disabling resource pack won't remove shader msg
+[x] fix !]S typo
+[x] fix ' in path problem for powershell commands
+[x] fix runAsAdmin.txt not getting deleted when pressing X in debug
+[x] follow on screen instructions md
+[x] from mtnxt main and syncMaterials see what variables are being utilized from restoreMaterials calls (hopefully all variables are loaded)
 [x] generate DO-NOT-EDIT file in .settings
 [x] getting minecraft path manually (if custom fails) (Trying to get Minecraft path automatically)
-[x] throw error and exit if default data path doesn't exist
-[x] rename partial to dynamic in restoreMaterials
-[ ] use %1 for restoreMaterials (duplicate ig) (too lazy)
-[ ] store more verbose logs for autoject, restore, inject etc
-[x] add material-updater: auto detected version msg
-[x] add [RECOMMENDED] and full restore buggy titles to the rstr screen
-[x] do cls after old backup found and mcloc not found (done ig)
-[x] add "or write /skip" for /skip
-[x] Make auto not launch if MATERIALS folder is not empty (did for manual as well)
-[x] iobit unlocker may crash on certain devices. warn
-[x] rename v1.21.20+ to v1.21.20 or above (mu)
-[x] add (buggy) for full restore (added EXPERIMENTAL)
-[ ] set all where commands to /q (didn't do as it's buggy)
-[x] add targetVersion next to material-updater mt settings
-[x] add version confirmation for mtupd
-[x] add ui for mtupd settings
-[ ] remove color code symbols (not doing)
-[x] add endlocal to all cmd /k
-[ ] check if 'where' exists (useless as i will have to rewrite all where commands for that)
-[x] first run: disabling resource pack won't remove shader msg
-[x] fix ' in path problem for powershell commands
-[x] follow on screen instructions md
-[x] add which folder needs to be selected for iobit unlocker (already done)
-[x] remove shader -> shader removal
-[x] 'requires' -> 'will require' -> will request admin perm***
-[x] Add 'loading packs...' in the step of auto if multiples are found (used Loading... instead)
-[x] CENSORED to REDACTED
-[x] candid meaning
-[x] check if attrib -R is required while turning off mtupdater (yes, used del /q /s /f instead)
-[x] add _helper in name of vbs
-
-[x] add materials folder not empty for auto method (done already)
-[x] add filename and credits in all files
-[x] split brackets in newline custom iobit path
-[x] uwa: change requires admin perm to, it will ask for admin perm on next step (set to "will require")
-[x] add veka0 and mcbegamer credit in respective files
-[x] create backups folder if it doesn't exist for replace current backup (already done)
-
-[x] add if you're seeing invis blocks enable that and try again in inject succeed 
-[ ] material-updater to fix invis blocks (Add "in matject settings") md (###)
-[x] fix runAsAdmin.txt not getting deleted when pressing X in debug
-[x] add tip, deactivating shader pack won't remove shaders (done)
-[x] add counter mismatch even if debug mode is off 
-[x] add how to remove shaders next to how to use md
-[x] use start for msg command mtnxt
-[ ] add @ in all lines of taskKillLoop...
-[x] ...and >nul 2>&1 for taskkill command
+[x] Have a nice day. -> Have a nice day!
+[x] include matjet meme both in web and md
 [x] in restoreMaterials %1 neq murgi --- change murgi to placebo3
-[ ] use where /q instead of nul (too buggy)
-[x] add BEL for shader incompatible 
-[x] add "some" in antivirus of known issues md 
-[ ] minecraft preview is also supported in features readme md
-[ ] add the missing stuff for uwapps admin check (???) (maybe fltmc, openfile, wmic which i did already???)
-[x] settings L246 (v3.5.2) update gamedata variable
-
-[x] add jsonc warn in mtnxt
-[x] return to main if confirmation empty mtnxt (forgor) (this means leaving set /p empty)
-[ ] add highlighted faq section in readme w/ matject doesn't need to be opened every time
-
-[x] do the raden1 mtbin fix for mtnxt
-
-[x] Set logo 55px in md
-[x] Set #-known-issues in md
-
-[ ] move instead to left of msg (scraped)
+[x] iobit unlocker may crash on certain devices. warn
+[x] jan 27, hbdbox
 [x] makealicense ok ok doing....
+[x] Make auto not launch if MATERIALS folder is not empty (did for manual as well)
+[x] mtjct != patched in md + discord newb
+[x] ninjump
+[x] read only for modules folder
+[x] remove %random% from uwinap
+[x] remove shader -> shader removal
+[x] remove unnecessary \ from all paths
+[x] rename partial to dynamic in restoreMaterials
+[x] rename v1.21.20+ to v1.21.20 or above (mu)
+[x] return to main if confirmation empty mtnxt (forgor) (this means leaving set /p empty)
+[x] see if running from WinRAR
+[x] Set #-known-issues in md
+[x] Set logo 55px in md
+[x] settings L246 (v3.5.2) update gamedata variable
+[x] since for loops ignore commas, make necessary changes to no longer deal with ,
+[x] split brackets in newline custom iobit path
+[x] throw error and exit if default data path doesn't exist
+[x] u don need brd for mtjt
+[x] use ./ instead of %cd% everywhere
+[x] use absolute paths for everything
+[x] use /F force arg for del commands so attrib -R is not needed (did where applicable)
+[x] use if exist to check for empty folder (backup)
+[x] use start for msg command mtnxt
+[x] uwa: change requires admin perm to, it will ask for admin perm on next step (set to "will require")
 [x] warning about unofficial source
 
-[ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
-
-[x] delete rstrlist if backups missing
-[ ] in matject.bat do something like set /p for self hash and equ stuff (bad idea)
-[ ] then store hash in variables.bat (bad idea)
-
-[x] read only for modules folder
-[x] enable custom path tip for getting details
-[x] add mats tree for debug
-
-[x] add disable module verification
-[x] remove %random% from uwinap
-[ ] mkdir after rmdir tmp
-[x] see if running from WinRAR
-[x] use if exist to check for empty folder (backup)
-[x] remove unnecessary \ from all paths
-[ ] put .log and .txt next to all settings
-
-[x] use ./ instead of %cd% everywhere
-[x] jan 27, hbdbox
-[x] bye bye
-[x] use absolute paths for everything
-[x] crash if variable is not defined for any file operation (partially done)
-
-[ ] use vbs for run iobit as admin (not a good idea)
-[x] ninjump
-[x] emptu folder check for auto method (done already)
-[x] add debug count for mtnxt injectmtrls
-[x] fix !]S typo
-[ ] add deferred detection 
-[ ] use vbs for iobit (bad idea
-[x] debug text change %cd% to .. (executing)
-[x] find what causes system can't find the path specified when doing full restore (solved) v3.5.1
-
-[x] add (raden1) .mtbin fix in clog
-[x] add se7en congrats in beginner md
-[x] check if supposed to open is in all files
-[x] add game mats size and count for debug
-[x] add backup mats size and count for debug
-[x] ">" comments guide web
-[x] 3rd point typo "theshader" guide-for-beginner
-[ ] convert images to webp
-[x] u don need brd for mtjt
-[x] mtjct != patched in md + discord newb
-[x] include matjet meme both in web and md
-[ ] follow keepachangelog style (scraped)
-[ ] clarify basic english requirements and iobit in MD
-[x] aka Matject cuz it's fast as jet (i know i'm exaggerating)
-[ ] add powershell requirements md
-[x] add license
-[x] add do not copy note md (partially done)
 
 
 [x] add downloading update is optional
@@ -162,6 +104,56 @@ Born on 20241228_1600
 
 [x] add full restore detection by comparing file count + placing a temp file
 [x] add dyn restore detection by placing a temp file during restore. (later)
+
+
+
+[ ] add >nul for every possible command to avoid colored symbols from showing up (starting with splash screen text)
+[ ] add @ in all lines of taskKillLoop...
+[ ] add corresponding key msg for every choice /c (not necessary)
+[ ] add deferred detection
+[ ] add highlighted faq section in readme w/ matject doesn't need to be opened every time
+[ ] add powershell requirements md
+[ ] add the ability to stop it from exiting when just sync and exit is enabled.
+[ ] add the missing stuff for uwapps admin check (???) (maybe fltmc, openfile, wmic which i did already???)
+[ ] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
+[ ] change full/dynamic in mtnxt warning to dynamic/full
+[ ] check if 'where' exists (useless as i will have to rewrite all where commands for that)
+[ ] clarify basic english requirements and iobit in MD
+[ ] convert images to webp
+[ ] copy command copies with /b for single files even when it's not specified. even tho put /b in all copy commands (source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy)
+[ ] delete tmp folder after full restore :completed
+[ ] don't launch auto/manual when matjectnext .log exist
+[ ] don't scan development packs (idea: Scan only: Both // Normal // development)
+[ ] follow keepachangelog style (scraped)
+[ ] for curl commands: add echo. under
+[ ] for each injection steps show message asking user to close the iobit unlocker popup
+[ ] in matject.bat do something like set /p for self hash and equ stuff (bad idea)
+[ ] in various files like autoject injectmtrls, instead of doing two if defined debug for executing...this&that command&echo. do executing...this&echo.&that command, so one "if defined debug" controls two
+[ ] make matjectnext default method
+[ ] material-updater to fix invis blocks (Add "in matject settings") md (###)
+[ ] message, you just need iobit unlocker to be installed. no need to do anything else.
+[ ] minecraft preview is also supported in features readme md
+[ ] mkdir after rmdir tmp
+[ ] move instead to left of msg (scraped)
+[ ] move more info to debug mode mtnxt
+[ ] pass chcp for pwsh calls (no need)
+[ ] put .log and .txt next to all settings
+[ ] remove color code symbols (not doing)
+[ ] see if debugMode text file is looked for in injectMtrls and rstrMtrls, also see if debugMode is passed to those files
+[ ] set all attrib to have >nul to fix the issue of color codes
+[ ] set all where commands to /q (didn't do as it's buggy)
+[ ] show applied pack on matjectnext title
+[ ] store more verbose logs for autoject, restore, inject etc
+[ ] sync again even if both packs are same mtnxt settings
+[ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
+[ ] then store hash in variables.bat (bad idea)
+[ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
+[ ] use msg to inform user that injection didn;t go well
+[ ] use %1 for restoreMaterials (duplicate ig) (too lazy)
+[ ] use %1 for variables also (release/preview) (later)
+[ ] use vbs for iobit (bad idea
+[ ] use vbs for run iobit as admin (not a good idea)
+[ ] use where /q instead of nul (too buggy)
 
 
 [ ] censor username for 0_debug (scraped)
