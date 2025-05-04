@@ -102,10 +102,10 @@ echo Terminal Height: %height%
 [x] settings L246 (v3.5.2) update gamedata variable
 
 [x] add jsonc warn in mtnxt
-[ ] return to main if confirmation empty mtnxt (forgor)
+[ ] return to main if confirmation empty mtnxt (forgor) (this means leaving set /p empty)
 [ ] add highlighted faq section in readme w/ matject doesn't need to be opened every time
 
-[ ] do the raden1 mtbin fix for mtnxt
+[x] do the raden1 mtbin fix for mtnxt
 
 [x] Set logo 55px in md
 [x] Set #-known-issues in md
