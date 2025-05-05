@@ -112,8 +112,8 @@ Born on 20241228_1600
 [x] add @ in all lines of taskKillLoop... (cleaned it instead)
 [ ] add corresponding key msg for every choice /c (not necessary, scraped)
 [ ] add deferred detection (scraped) (changed to RTX/deferred packs are guaranteed to work)
-[ ] add highlighted faq section in readme w/ matject doesn't need to be opened every time
-[ ] add powershell requirements md
+[x] add highlighted faq section in readme w/ matject doesn't need to be opened every time
+[x] add powershell requirements md
 [ ] add the ability to stop it from exiting when just sync and exit is enabled.
 [ ] add the missing stuff for uwapps admin check (???) (maybe fltmc, openfile, wmic which i did already???)
 [ ] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
