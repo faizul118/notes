@@ -1,6 +1,7 @@
 Born on 20241228_1600
 
 
+[ ] make backupRunning limited to game edition
 [x] ">" comments guide web
 [x] 'requires' -> 'will require' -> will request admin perm***
 [x] ...and >nul 2>&1 for taskkill command
