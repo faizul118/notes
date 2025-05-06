@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] in each matject page add Q to know which button does what
 [ ] move setDetails subroutine from cachePacks to near the loops or top to make it faster
 [ ] make backupRunning limited to game edition
 [x] ">" comments guide web
