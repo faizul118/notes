@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] rename partial to dynamic
 [ ] use pause instead of timeout for unable to direct write mode
 [ ] when archiving old backup see if older folder exists already and remove 
 [ ] add an option to launch minecraft after mtnxt sync
