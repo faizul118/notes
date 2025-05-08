@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] make majet accept .exe path as well (for both iobit and mc)
 [x] remove [BETA] from where possible
 [x] rename partial to dynamic
 [x] use pause instead of timeout for unable to direct write mode
