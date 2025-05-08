@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-[ ] remove [BETA] from where possible
+[x] remove [BETA] from where possible
 [ ] rename partial to dynamic
 [ ] use pause instead of timeout for unable to direct write mode
 [ ] when archiving old backup see if older folder exists already and remove 
