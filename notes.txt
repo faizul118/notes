@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] remove moved msg from json fixer
 [ ] waiting for user to close window in json fixer
 [ ] make majet accept .exe path as well (for both iobit and mc)
 [x] remove [BETA] from where possible
