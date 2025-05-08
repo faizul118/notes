@@ -2,7 +2,7 @@ Born on 20241228_1600
 
 [x] remove [BETA] from where possible
 [x] rename partial to dynamic
-[ ] use pause instead of timeout for unable to direct write mode
+[x] use pause instead of timeout for unable to direct write mode
 [ ] when archiving old backup see if older folder exists already and remove 
 [ ] add an option to launch minecraft after mtnxt sync
 [ ] in each matject page add Q to know which button does what
