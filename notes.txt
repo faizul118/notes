@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] use chcp for settings set so texts don't get ruined
 [ ] check where tarexe needs to be ! !
 [ ] ask user to set for mc preview if mc release is not installed?
 [ ] check what i exactly changed to refresh mc data path variable (compared to v3.6.0)
