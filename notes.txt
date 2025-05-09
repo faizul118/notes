@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] if variable not found in settings.ini, append it instead of creating
 [ ] since i have added please close iobit popup msg under each yellow injecton titles. i must repair 1F0J stuff carefully
 [ ] remove gamedata text from manifest checker error (it uses %2 actually)
 [x] remove moved msg from json fixer
