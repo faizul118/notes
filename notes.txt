@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] use if to remove trailing \ from custom paths
 [ ] use chcp for settings set so texts don't get ruined
 [ ] check where tarexe needs to be ! !
 [ ] ask user to set for mc preview if mc release is not installed?
