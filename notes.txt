@@ -1,8 +1,8 @@
 Born on 20241228_1600
 
-[ ] remove trailing space from replacelist export
-[ ] use if to remove trailing \ from custom paths
-[ ] use chcp for settings set so texts don't get ruined
+[x] remove trailing space from replacelist export
+[x] use if to remove trailing \ from custom paths
+[x] use chcp for settings set so texts don't get ruined (no need, it works fine as-is)
 [ ] check where tarexe needs to be ! !
 [ ] ask user to set for mc preview if mc release is not installed?
 [ ] check what i exactly changed to refresh mc data path variable (compared to v3.6.0)
