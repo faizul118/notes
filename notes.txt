@@ -6,7 +6,7 @@ Born on 20241228_1600
 [ ] check where tarexe needs to be ! !
 [x] ask user to set for mc preview if mc release is not installed?
 [x] check what i exactly changed to refresh mc data path variable (compared to v3.6.0) (it's gamedata variable, which is updated properly already)
-[ ] if variable not found in settings.ini, append it instead of creating
+[x] if variable not found in settings.ini, append it instead of creating
 [ ] since i have added please close iobit popup msg under each yellow injecton titles. i must repair 1F0J stuff carefully
 [ ] remove gamedata text from manifest checker error (it uses %2 actually)
 [x] remove moved msg from json fixer
