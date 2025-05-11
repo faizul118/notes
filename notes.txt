@@ -137,7 +137,7 @@ Born on 20241228_1600
 [ ] add the missing stuff for uwapps admin check (???) (maybe fltmc, openfile, wmic which i did already???) (solved ig?)
 
 [x] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
-[ ] change full/dynamic in mtnxt warning to dynamic/full
+[x] change full/dynamic in mtnxt warning to dynamic/full
 [ ] check if 'where' exists (useless as i will have to rewrite all where commands for that)
 [ ] clarify basic english requirements and iobit in MD
 [ ] convert images to webp
