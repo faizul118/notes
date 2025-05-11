@@ -138,7 +138,7 @@ Born on 20241228_1600
 
 [x] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
 [x] change full/dynamic in mtnxt warning to dynamic/full
-[ ] check if 'where' exists (useless as i will have to rewrite all where commands for that)
+[x] check if 'where' exists (useless as i will have to rewrite all where commands for that) (made it happen. chose to exit entirely if where doesn't exist)
 [ ] clarify basic english requirements and iobit in MD
 [ ] convert images to webp
 [ ] copy command copies with /b for single files even when it's not specified. even tho put /b in all copy commands (source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy)
