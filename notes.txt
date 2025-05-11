@@ -18,8 +18,9 @@ Born on 20241228_1600
 [x] when archiving old backup see if older folder exists already and remove 
 [x] add an option to launch minecraft after mtnxt sync
 [ ] in each matject page add Q to know which button does what
-[ ] move setDetails subroutine from cachePacks to near the loops or top to make it faster
+[ ] move setDetails subroutine from cachePacks to near the loops or top to make it faster (bad idea) 
 [ ] make backupRunning limited to game edition
+
 [x] ">" comments guide web
 [x] 'requires' -> 'will require' -> will request admin perm***
 [x] ...and >nul 2>&1 for taskkill command
