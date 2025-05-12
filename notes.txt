@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-[ ] add option to scan resource only/dev only/both
+[x] add option to scan resource only/dev only/both
 [x] remove trailing space from replacelist export
 [x] use if to remove trailing \ from custom paths
 [x] use chcp for settings set so texts don't get ruined (no need, it works fine as-is)
@@ -12,7 +12,7 @@ Born on 20241228_1600
 [ ] remove gamedata text from manifest checker error (it uses %2 actually)
 [x] remove moved msg from json fixer
 [x] waiting for user to close window in json fixer
-[ ] make majet accept .exe path as well (for both iobit and mc)
+[x] make majet accept .exe path as well (for both iobit and mc)
 [x] remove [BETA] from where possible
 [x] rename partial to dynamic
 [x] use pause instead of timeout for unable to direct write mode
