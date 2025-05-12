@@ -161,8 +161,8 @@ Born on 20241228_1600
 [ ] pass chcp for pwsh calls (no need)
 [x] put .log and .txt next to all settings
 [ ] remove color code symbols (not doing)
-[ ] see if debugMode text file is looked for in injectMtrls and rstrMtrls, also see if debugMode is passed to those files
-[ ] set all attrib to have >nul to fix the issue of color codes
+[x] see if debugMode text file is looked for in injectMtrls and rstrMtrls, also see if debugMode is passed to those files (passed as variables)
+[x] set all attrib to have >nul to fix the issue of color codes
 [ ] set all where commands to /q (didn't do as it's buggy)
 [ ] show applied pack on matjectnext title
 [ ] store more verbose logs for autoject, restore, inject etc
