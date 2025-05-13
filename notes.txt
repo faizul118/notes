@@ -1,13 +1,13 @@
 Born on 20241228_1600
 
-[ ] injecting = file replacement md
-[ ] test wt shortcut prompt text
-[ ] change newb discord links to bedrock graphics
+[x] injecting = file replacement md
+[x] test wt shortcut prompt text
+[x] change newb discord links to bedrock graphics
 [x] add option to scan resource only/dev only/both
 [x] remove trailing space from replacelist export
 [x] use if to remove trailing \ from custom paths
 [x] use chcp for settings set so texts don't get ruined (no need, it works fine as-is)
-[ ] check where tarexe needs to be ! !
+[x] check where tarexe needs to be ! ! (% is fine)
 [x] ask user to set for mc preview if mc release is not installed?
 [x] check what i exactly changed to refresh mc data path variable (compared to v3.6.0) (it's gamedata variable, which is updated properly already)
 [x] if variable not found in settings.ini, append it instead of creating
