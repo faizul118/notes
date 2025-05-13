@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] change newb discord links to bedrock graphics
 [x] add option to scan resource only/dev only/both
 [x] remove trailing space from replacelist export
 [x] use if to remove trailing \ from custom paths
