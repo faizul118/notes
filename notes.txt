@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] make sure matject relaunches itself as admin even if %1 is defined
 [x] injecting = file replacement md
 [x] test wt shortcut prompt text
 [x] change newb discord links to bedrock graphics
