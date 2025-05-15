@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+[ ] in the update prompt change the "from" link
+
 [x] make sure matject relaunches itself as admin even if %1 is defined
 [x] injecting = file replacement md
 [x] test wt shortcut prompt text (fixed it as well)
