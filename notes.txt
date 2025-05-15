@@ -2,7 +2,7 @@ Born on 20241228_1600
 
 [x] make sure matject relaunches itself as admin even if %1 is defined
 [x] injecting = file replacement md
-[x] test wt shortcut prompt text
+[x] test wt shortcut prompt text (fixed it as well)
 [x] change newb discord links to bedrock graphics
 [x] add option to scan resource only/dev only/both
 [x] remove trailing space from replacelist export
@@ -144,40 +144,40 @@ Born on 20241228_1600
 [x] break cachepack and autoextract loops if manifest.json not found in resource_packs\somthing\something2
 [x] change full/dynamic in mtnxt warning to dynamic/full
 [x] check if 'where' exists (useless as i will have to rewrite all where commands for that) (made it happen. chose to exit entirely if where doesn't exist)
-[ ] clarify basic english requirements and iobit in MD
-[ ] convert images to webp
+[x] clarify basic english requirements and iobit in MD
+[ ] convert images to webp (bad idea)
 [x] copy command copies with /b for single files even when it's not specified. even tho put /b in all copy commands (source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy)
-[ ] delete tmp folder after full restore :completed
+[x] delete tmp folder after full restore :completed
 [ ] don't launch auto/manual when matjectnext .log exist
-[ ] don't scan development packs (idea: Scan only: Both // Normal // development)
+[x] don't scan development packs (idea: Scan only: Both // Normal // development)
 [ ] follow keepachangelog style (scraped)
 [x] for curl commands: add echo. under (done in getJQ)
-[ ] for each injection steps show message asking user to close the iobit unlocker popup
+[x] for each injection steps show message asking user to close the iobit unlocker popup
 [ ] in matject.bat do something like set /p for self hash and equ stuff (bad idea)
-[ ] in various files like autoject injectmtrls, instead of doing two if defined debug for executing...this&that command&echo. do executing...this&echo.&that command, so one "if defined debug" controls two
+[x] in various files like autoject injectmtrls, instead of doing two if defined debug for executing...this&that command&echo. do executing...this&echo.&that command, so one "if defined debug" controls two
 [ ] make matjectnext default method
-[ ] material-updater to fix invis blocks (Add "in matject settings") md (###)
-[ ] message, you just need iobit unlocker to be installed. no need to do anything else.
+[x] material-updater to fix invis blocks (Add "in matject settings") md (###)
+[x] message, you just need iobit unlocker to be installed. no need to do anything else.
 [ ] minecraft preview is also supported in features readme md
-[ ] mkdir after rmdir tmp
+[ ] mkdir after rmdir tmp (idk)
 [ ] move instead to left of msg (scraped)
-[ ] move more info to debug mode mtnxt
+[x] move more info to debug mode mtnxt
 [ ] pass chcp for pwsh calls (no need)
 [x] put .log and .txt next to all settings
 [ ] remove color code symbols (not doing)
 [x] see if debugMode text file is looked for in injectMtrls and rstrMtrls, also see if debugMode is passed to those files (passed as variables)
 [x] set all attrib to have >nul to fix the issue of color codes
 [ ] set all where commands to /q (didn't do as it's buggy)
-[ ] show applied pack on matjectnext title
-[ ] store more verbose logs for autoject, restore, inject etc
-[ ] sync again even if both packs are same mtnxt settings
+[x] show applied pack on matjectnext title
+[ ] store more verbose logs for autoject, restore, inject etc (scraped)
+[x] sync again even if both packs are same mtnxt settings
 [ ] test https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/echo for isPreview:~ stuff
 [ ] then store hash in variables.bat (bad idea)
 [ ] use iobit copy and copy /d instead of moving from tmp for full restore (not doing, risky as long paths)
-[ ] use msg to inform user that injection didn;t go well
+[x] use msg to inform user that injection didn;t go well
 [ ] use %1 for restoreMaterials (duplicate ig) (too lazy)
 [ ] use %1 for variables also (release/preview) (later)
-[ ] use vbs for iobit (bad idea
+[ ] use vbs for iobit (bad idea)
 [ ] use vbs for run iobit as admin (not a good idea)
 [ ] use where /q instead of nul (too buggy)
 
@@ -185,7 +185,7 @@ Born on 20241228_1600
 [ ] censor username for 0_debug (scraped)
 [ ] rename debug to _debug (scraped)
 [ ] sign bat (not possible)
-[ ] use for /f for settings.txt (later)
+[x] use for /f for settings.txt (later)
 [ ] change settings to .data (later)
 [ ] add signature verification for downloaded files (scraped)
 [ ] killswitch for updates (scraped)
