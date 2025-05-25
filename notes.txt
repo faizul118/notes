@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] enough spacing for mtntx sync pack details
 [ ] hellp
 [ ] click any key to open matject after update
 [ ] in the update prompt change the "from" link
