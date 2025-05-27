@@ -1,6 +1,6 @@
 Born on 20241228_1600
 
-[ ] may 22, started learning kotlin again
+[ ] may 22, started learning kotlin againd
 [ ] enough spacing for mtntx sync pack details
 [ ] hellp
 [ ] click any key to open matject after update
