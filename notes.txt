@@ -1,5 +1,6 @@
 Born on 20241228_1600
 
+[ ] testg
 [ ] may 22, started learning kotlin againd
 [ ] enough spacing for mtntx sync pack details
 [ ] hellp
