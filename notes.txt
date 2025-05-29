@@ -6,7 +6,10 @@ https://pl.kotl.in/hWPONiC5l
 3. Movie-ticket price
 https://pl.kotl.in/j9Z584u9-
 
+4. Temperature converter
+https://pl.kotl.in/QXhP_JX0O
 
+5. Song catalog
 
 [ ] testg
 [ ] may 22, started learning kotlin againd
