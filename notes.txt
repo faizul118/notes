@@ -11,6 +11,11 @@ https://pl.kotl.in/QXhP_JX0O
 
 5. Song catalog
 
+
+6. Internet profile
+
+
+
 [ ] testg
 [ ] may 22, started learning kotlin againd
 [ ] enough spacing for mtntx sync pack details
