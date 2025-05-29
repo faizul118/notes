@@ -1,5 +1,20 @@
 Born on 20241228_1600
 
+Basic shapes from androidx.compose.foundation.shape:
+
+RoundedCornerShape(corner: Dp)
+e.g., RoundedCornerShape(8.dp)
+
+CutCornerShape(corner: Dp)
+e.g., CutCornerShape(12.dp)
+
+CircleShape
+A perfect circle (or ellipse if the container isn't square)
+
+RectangleShape
+No corner rounding, default shape.
+
+
 2. Mobile notifications
 https://pl.kotl.in/hWPONiC5l
 
