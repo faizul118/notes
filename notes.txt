@@ -1,3 +1,16 @@
+fun main() {
+    val chimkenNames = arrayOf<String>(
+        "morgi",
+        "dinosaur",
+        "deshi",
+        "sonali",
+        "penguin",
+        "kala chan",
+        "china"
+    )
+    println(chimkenNames[(0..chimkenNames.size).random()])
+}
+
 Born on 20241228_1600
 
 Basic shapes from androidx.compose.foundation.shape:
