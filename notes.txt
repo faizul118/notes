@@ -1,3 +1,5 @@
+Born on 20241228_1600
+
 fun main() {
     val chimkenNames = arrayOf<String>(
         "morgi",
@@ -11,7 +13,7 @@ fun main() {
     println(chimkenNames[(0..chimkenNames.size).random()])
 }
 
-Born on 20241228_1600
+fastboot flash vbmeta vbmeta.img --disable-verity --disable-verification
 
 Basic shapes from androidx.compose.foundation.shape:
 
