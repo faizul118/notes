@@ -1,5 +1,11 @@
 Born on 20241228_1600
 
+paona 
+nfs apo: 163
+ammu: 510
+rij: 109
+total 782
+
 fun main() {
     val chimkenNames = arrayOf<String>(
         "morgi",
