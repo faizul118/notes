@@ -1,7 +1,7 @@
 Born on 20241228_1600
 
 paona 
-nfs apo: 163
+nfs apo: 163 - 200 
 ammu: 510
 rij: 109
 total 782
