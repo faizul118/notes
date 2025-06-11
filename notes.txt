@@ -2,6 +2,16 @@ Born on 20241228_1600
 
 implementation("androidx.compose.material:material-icons-extended")
 
+signingConfig = signingConfigs.getByName("debug")
+^ goes inside buildTypes -> release
+
+isShrinkResources = true
+^ also goes inside above, removed res files that are unused.
+
+recap:
+isMinifyEnabled = true   removes code that is unused
+isShrinkResources = true removes res files that are unused
+
 paona 
 nfs apo: 163 - 200 
 ammu: 510 - 500
