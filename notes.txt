@@ -1,5 +1,12 @@
 Born on 20241228_1600
 
+
+cleaning up app\build except some apks one liner
+test only: Get-ChildItem -Path . -Recurse -Directory -Filter build | Where-Object { $_.FullName -like '*\app\build' } | ForEach-Object { Get-ChildItem -Path $_.FullName -Recurse | Where-Object { $_.Name -notin @('app-debug.apk', 'app-debug-unsigned.apk', 'app-release.apk', 'app-release-unsigned.apk') } | Select-Object FullName }
+
+cinema mode: Get-ChildItem -Path . -Recurse -Directory -Filter build | Where-Object { $_.FullName -like '*\app\build' } | ForEach-Object { Get-ChildItem -Path $_.FullName -Recurse | Where-Object { $_.Name -notin @('app-debug.apk', 'app-debug-unsigned.apk', 'app-release.apk', 'app-release-unsigned.apk') } | Remove-Item -Recurse -Force }
+
+
 implementation("androidx.compose.material:material-icons-extended")
 
 signingConfig = signingConfigs.getByName("debug")
