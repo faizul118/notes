@@ -1,5 +1,16 @@
 Born on 20241228_1600
 
+```
+- uses: actions/cache@v4
+  with:
+    path: |
+      ~/.gradle/caches
+      ~/.gradle/wrapper
+    key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+    restore-keys: |
+      ${{ runner.os }}-gradle-
+```
+
 
 cleaning up app\build except some apks one liner
 test only: Get-ChildItem -Path . -Recurse -Directory -Filter build | Where-Object { $_.FullName -like '*\app\build' } | ForEach-Object { Get-ChildItem -Path $_.FullName -Recurse | Where-Object { $_.Name -notin @('app-debug.apk', 'app-debug-unsigned.apk', 'app-release.apk', 'app-release-unsigned.apk') } | Select-Object FullName }
