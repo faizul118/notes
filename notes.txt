@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+bought 430 of TON. Sold 25 
+
 rubelRizz gotta pay 175 + 110 + 20
 
 Add-MpPreference -ExclusionPath 'C:\Temp'
