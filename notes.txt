@@ -53,9 +53,6 @@ recap:
 isMinifyEnabled = true   removes code that is unused
 isShrinkResources = true removes res files that are unused
 
-paona 
-nfs apo: 163 - 200 (cleared)
-
 fun main() {
     val chimkenNames = arrayOf<String>(
         "morgi",
