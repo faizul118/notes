@@ -4,9 +4,12 @@ Born on 20241228_1600
 20250702, bought 5.09$ $/130.59 (total spent 659.685)
     L sold 1.25926398 @ 166 // remains 493.685
     L sold 1.078 @ 131.9 // remains $2.75273602 | 361.785 /-
+    L sold 2.75273602 @ 100 remains $0 | 261.785
 
-bought 430 of TON. Sold:
+bought 230 (me) + 200 (rizz) of TON. Sold:
 25 + 226.25 = 251.25 (178.75 left)
+
+so both equals 261.785 + 178.75 = 440.535
 
 rubelRizz gotta pay 175 + 110 + 20
 
