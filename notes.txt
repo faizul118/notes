@@ -1,7 +1,10 @@
 Born on 20241228_1600
 
 7.84 USDT = 1019.9 /-
-    L 4.72973887 -> sold 1.557 TON for 600 | remains 419.9 (loss 15.288351213) // rate of remaining = 136
+    L 4.72973887 -> sold 1.557 TON for 600 | remains 419.9 (~~loss 15.29~~ fulfilled) // rate of remaining = 136
+    L 0.2121 -> sold for 47.52 | remains 372.38 / $2.89816113
+    L 0.3535 -> sold for 99 | remains 273.38 / $2.54466113
+    L 0.3535...->
 
 
 ### DISCARDED ###
