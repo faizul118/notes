@@ -1,6 +1,9 @@
 Born on 20241228_1600
 
 /* TODO */
+use approx = sign instead of = in fee input
+Help dialog remove textAlign for Close and use Modifier.align (set column to fillMaxWidth())
+
 fcom.pra@bkash.com
 mail about PRA delivery status
 
