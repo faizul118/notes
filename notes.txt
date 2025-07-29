@@ -5,6 +5,8 @@ ammu 840 (wifi)
 ### END ###
 
 /* TODO START */
+[ ] rename app to MFS Charge Calculator
+[ ] make the result title and perhaps content bold
 
 [x] use approx = sign instead of = in fee input
 [x] Help dialog remove textAlign for Close and use Modifier.align (set column to fillMaxWidth())
