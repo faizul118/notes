@@ -5,6 +5,7 @@ ammu 840 (wifi)
 ### END ###
 
 /* TODO START */
+[ ] snapchat data dels on sept 2
 [ ] add atm in bkash priyo
 [ ] rename app to MFS Charge Calculator
 [ ] make the result title and perhaps content bold
