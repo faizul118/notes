@@ -1,7 +1,7 @@
 Born on 20241228_1600
 
 ## ONGOING ###
-ammu 840 (wifi)
+ammu 840 (wifi) + 50 (flexi)
 ### END ###
 
 /* TODO START */
