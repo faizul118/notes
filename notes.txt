@@ -6,7 +6,8 @@ ammu 840 (wifi) + 50 (flexi)
 
 /* TODO START */
 [ ] snapchat data dels on sept 2
-make textfield red error when is empty and required
+[ ] add BROWSEABLE or whatever that makes app detect if user have at least one browser installed
+[ ] make textfield red error when is empty and required
 [x] add atm in bkash priyo
 [x] rename app to MFS Charge Calculator
 [x] make the result title and perhaps content bold
