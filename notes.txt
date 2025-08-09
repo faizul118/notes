@@ -161,7 +161,7 @@ https://pl.kotl.in/wx3nLDTBT
 [x] in the update prompt change the "from" link
 [ ] new line after git clone in updater
 [x] Change No to Number
-[ ] add +1 for Number preview mtnxt
+[x] add +1 for Number preview mtnxt
 
 [x] make sure matject relaunches itself as admin even if %1 is defined
 [x] injecting = file replacement md
