@@ -155,12 +155,12 @@ https://pl.kotl.in/wx3nLDTBT
 
 [ ] testg
 [ ] may 22, started learning kotlin againd
-[ ] enough spacing for mtntx sync pack details
+[x] enough spacing for mtntx sync pack details
 [ ] hellp
-[ ] click any key to open matject after update
-[ ] in the update prompt change the "from" link
+[x] click any key to open matject after update
+[x] in the update prompt change the "from" link
 [ ] new line after git clone in updater
-[ ] Change No to Number
+[x] Change No to Number
 [ ] add +1 for Number preview mtnxt
 
 [x] make sure matject relaunches itself as admin even if %1 is defined
