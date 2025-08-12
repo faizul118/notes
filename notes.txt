@@ -9,7 +9,7 @@ Stardew valley 45.99 TRY
 
 ## ONGOING ###
 ammu 840 (wifi) + 2005 + 50 + 50 (flexi)
-rizz 65
+rizz 65 + 20
 ### END ###
 
 /* TODO START */
