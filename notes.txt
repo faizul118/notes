@@ -1,5 +1,18 @@
 Born on 20241228_1600
 
+### Upcoming app idea ###
+Title: Fiat Logger
+[ ] Have accounts: Bkash, Bkash merchant, rocket, nagad, redotpay, binance, ton (maybe)
+[ ] Have ability to create/delete more accounts
+[ ] month to month history... (maybe...?)
+[ ] Show total from every accounts
+[ ] have ability to store lendings, and show them as (-000) next to total
+[ ] accounts have type. fiat or crypto
+[ ] fiat: currency as BDT, show fees 
+[ ] crypto: show as USDT, show fees, dollar rate
+
+
+
 ## FOR LATER IG ##
 MC 29 INR
 ibis 4 INR
