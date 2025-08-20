@@ -12,6 +12,12 @@ Title: Fiat Logger
 [ ] crypto: show as USDT, show fees, dollar rate
 
 
+### USD DRAMA ###
+Bought 6.40 USDT at 825
+
+Bought 5.05 USDT at 650
+### END ###
+
 
 ## FOR LATER IG ##
 MC 29 INR
