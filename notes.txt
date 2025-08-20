@@ -22,7 +22,7 @@ Stardew valley 45.99 TRY
 
 ## ONGOING ###
 sbt owes 6(rdtpay) + 9 (smsp) $
-1345 (mama) + 50 + 50 + 20 (flexi)
+1345 (mama) + 50 + 50 + 20 (flexi) + 840 (wifi)
 ### END ###
 
 /* TODO START */
