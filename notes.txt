@@ -13,9 +13,10 @@ Title: Fiat Logger
 
 
 ### USD DRAMA ###
+1480 /- of USDT
 Bought 6.40 USDT at 825
-
-Bought 5.05 USDT at 650
+    L 6.365424 for rpxy = 820.55 /-
+Bought 5.05 USDT at 655
 ### END ###
 
 
