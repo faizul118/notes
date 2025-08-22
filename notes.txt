@@ -30,6 +30,7 @@ Stardew valley 45.99 TRY
 ## ONGOING ###
 1345 (mama) + 50 + 50 + 20 (flexi) + 840 (wifi)
 nagad due: 100 + 99 + 185 + 100
+pay symmentric 8.01
 ### END ###
 
 /* TODO START */
