@@ -28,9 +28,8 @@ Terraria 34.99 TRY
 Stardew valley 45.99 TRY
 
 ## ONGOING ###
-sbt owes 6(rdtpay) + 3.5 (smsp) $
 1345 (mama) + 50 + 50 + 20 (flexi) + 840 (wifi)
-nagad due: 100 + 99 + 185
+nagad due: 100 + 99 + 185 + 100
 ### END ###
 
 /* TODO START */
