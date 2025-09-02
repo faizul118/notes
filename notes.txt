@@ -9,6 +9,7 @@ Born on 20241228_1600
 [ ] make skin pack and import
 [ ] show minecraft play time
 [ ] backup/restore every necessities w/ shizu
+[ ] add server to minecraft
 ### END ###
 
 ### Upcoming app idea ###
