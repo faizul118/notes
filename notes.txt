@@ -1,5 +1,16 @@
 Born on 20241228_1600
 
+### FT app ideas ###
+[ ] Add addon import
+[ ] Add file magic check
+[ ] Add prompt if format can't be determined from file name
+[ ] Add import addon button
+[ ] shizu HAU
+[ ] make skin pack and import
+[ ] show minecraft play time
+[ ] backup/restore every necessities w/ shizu
+### END ###
+
 ### Upcoming app idea ###
 Title: Fiat Logger
 [ ] Have accounts: Bkash, Bkash merchant, rocket, nagad, redotpay, binance, ton (maybe)
