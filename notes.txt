@@ -2,6 +2,9 @@ Born on 20241228_1600
 
 terminal lucidity
 
+"([^"\\]*(\\.[^"\\]*)*)"
+regex to look for strings
+
 ### FT app ideas ###
 [ ] Add addon import
 [ ] Add file magic check
