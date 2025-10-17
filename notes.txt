@@ -1,5 +1,7 @@
 Born on 20241228_1600
 
+wish: use DX as pfp
+
 interesting: https://github.com/moezbhatti/qksms/issues/1522#issuecomment-1826806510
 
 terminal lucidity
