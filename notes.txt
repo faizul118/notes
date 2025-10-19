@@ -55,7 +55,7 @@ nova launcher prime 10 TRY
 ## ONGOING ###
 305 (wifi) + 100 flexi + 112 (losectil 3, chocolate 2, chips 20, mojo 1L 60 tk, baki ta ammure diye disi) + 505 tk + 50 tk flexi + 1025 medam + 75 nijer flexi
 
-nagad due: 100 + 99 + 185 + 100 + 629.37 + 100 (oct 5, 12 pm mcpe) + 85 (oct 11, 4 pm mcpe) + 70 (oct 11, 11 pm mcpe) + 145 (niad, oct14) + 15 (copper cape WaB) + 75 (mcpe oct 17 9 am)
+nagad due: 100 + 99 + 185 + 100 + 629.37 + 100 (oct 5, 12 pm mcpe) + 85 (oct 11, 4 pm mcpe) + 70 (oct 11, 11 pm mcpe) + 145 (niad, oct14) + 15 (copper cape WaB) + 75 (mcpe oct 17 9 am) + 195 (x3 mcpe, oct 17)  + 99 (oct 17, ~3:33pm, mcpe) + 
 ### END ###
 
 /* TODO START */
