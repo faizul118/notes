@@ -62,7 +62,7 @@ nagad due: 100 + 99 + 185 + 100 + 629.37 + 100 (oct 5, 12 pm mcpe) + 85 (oct 11,
 
 OLD ^^^^
 +++++++
-New: 
+New nagad: 
 85 nov 15 - mcpe
 85 nov 17 - mcpe
 82 nov 17 - mcpe
