@@ -220,7 +220,7 @@ https://pl.kotl.in/UJl7xjEO0
 https://pl.kotl.in/wx3nLDTBT
 
 [ ] testg
-[ ] may 22, started learning kotlin againd
+[ ] may 22 2025, started learning kotlin againd
 [x] enough spacing for mtntx sync pack details
 [ ] hellp
 [x] click any key to open matject after update
