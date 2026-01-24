@@ -1,6 +1,7 @@
 Born on 20241228_1600
 
 mininmum resolution for mcpe big window size: 752x500
+alt bar height is 21 pixels
 
 wish: use DX as pfp
 
