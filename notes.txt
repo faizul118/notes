@@ -1,5 +1,14 @@
 Born on 20241228_1600
 
+fix symlinks on linux | duck.ai and chatgpt
+find . -type f \( -name "uniforms" -o -name "materials.json" \) \
+-exec sh -c '
+  file="$1"
+  target=$(cat "$file")
+  rm -f "$file"
+  ln -s "$target" "$file" && echo "Updated: $file -> $target"
+' _ {} \;
+
 mininmum resolution for mcpe big window size: 752x500
 alt bar height is 21 pixels
 
